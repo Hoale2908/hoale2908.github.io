@@ -7,10 +7,12 @@ Specialized in...
 Performed this...
 
 ## Education & Qualifications
-- FRM 1
-- CFA 1
-- MSF & MBA
-- Bachelor
+FRM Part 1 Exam Candidate, GARP	- May 2024
+MS Finance, Suffolk University (Boston, MA) - May 2022
+MBA, Suffolk University (Boston, MA) - May 2022
+CFA Level I, CFA Institute - Passed July 2012
+Bachelor of Corporate Finance, National Economic University (Vietnam) - July 2011
+
 
 ## Sample Projects
 [Predicting Retail Mortgage Default (Python)][Notebook]

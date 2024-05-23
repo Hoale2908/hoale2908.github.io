@@ -1,5 +1,11 @@
 # Financial Risk Data Scientist
 
+Experienced in....
+
+Specialized in...
+
+Performed this...
+
 ## Education & Qualifications
 - FRM 1
 - CFA 1

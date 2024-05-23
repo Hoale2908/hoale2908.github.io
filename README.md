@@ -1,4 +1,4 @@
-# Hoa Le (Harvey)
+# Financial Risk Data Scientist
 
 ## Education & Qualifications
 - FRM 1

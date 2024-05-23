@@ -14,10 +14,6 @@ Performed this...
 - Bachelor of Corporate Finance, National Economic University (Vietnam) - July 2011
 
 
-## Sample Projects
+## Projects
 - [Predicting Retail Mortgage Default (Python)](https://github.com/Hoale2908/retail_mortgage/blob/a4f35e5efdadcb9ecf4a7e41cda5a45583035766/Retail%20Mortgage%20Portfolio%20Model.ipynb)
 
-
-## Experience
-- exp 1
-- exp 2

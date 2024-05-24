@@ -7,11 +7,11 @@ Specialized in...
 Performed this...
 
 ## Education & Qualifications
-- FRM Part 1 Exam Candidate, GARP	- May 2024
-- MS Finance, Suffolk University (Boston, MA) - May 2022
-- MBA, Suffolk University (Boston, MA) - May 2022
-- CFA Level I, CFA Institute - Passed July 2012
-- Bachelor of Corporate Finance, National Economic University (Vietnam) - July 2011
+- FRM Part 1 Exam Candidate                                     - May 2024
+- CFA Level II Candidate                                        - 2025
+- MS Finance - Suffolk University (Boston, MA)                  - May 2022
+- MBA - Suffolk University (Boston, MA)                         - May 2022
+- BS Finance & Banking, National Economic University (Vietnam)  - July 2011
 
 
 ## Projects

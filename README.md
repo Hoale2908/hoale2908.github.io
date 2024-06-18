@@ -1,6 +1,6 @@
-# Data Scientist - Financial Risk Management
+# About Me
 
-Hi! I'm Hoa Le, a Python enthusiast with a background in finance and accounting, and am passionate in financial optimization including risk management and portfolio management.
+Hi! I'm Hoa Le, an optimizationist and Python enthusiast with a background in finance and accounting. I am passionate in risk management and portfolio management.
 
 ## Education & Qualifications
 - FRM Part 1 Exam Candidate                                     - May 2024

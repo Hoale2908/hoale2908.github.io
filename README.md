@@ -18,3 +18,8 @@ Featuring: Data Wrangling, EDA, Logistic Regression.
 
 - [Which YouTubers for your brands? Identify the most effective YouTube videos to promote an AI & Data E-Learning Platform (Python)](https://www.datacamp.com/datalab/w/15569778-9ada-47d8-8bd0-04ff0de694bb)
 Featuring: Data Wrangling, EDA, Analytical Reasoning.
+
+## Work Experience
+- 04/2022 - Current: Financial Consultant, Leyton USA (Boston, MA).
+- 01/2016 - 12/2019: Tax Manager & Senior Consultant, PwC (Hanoi, VN). 
+- 08/2012 - 12/2014: Senior Consultant & Consultant, PwC (Hanoi, VN).

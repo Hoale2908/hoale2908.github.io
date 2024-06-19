@@ -20,6 +20,6 @@ Featuring: Data Wrangling, EDA, Logistic Regression.
 Featuring: Data Wrangling, EDA, Analytical Reasoning.
 
 ## Work Experience
-- 04/2022 - Current: Financial Consultant, Leyton USA (Boston, MA).
-- 01/2016 - 12/2019: Tax Manager & Senior Consultant, PwC (Hanoi, VN). 
-- 08/2012 - 12/2014: Senior Consultant & Consultant, PwC (Hanoi, VN).
+- 04/2022 - Current: Financial Consultant, Leyton USA.
+- 01/2016 - 12/2019: Tax Manager & Senior Consultant, PwC. 
+- 08/2012 - 12/2014: Senior Consultant & Consultant, PwC.

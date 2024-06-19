@@ -1,11 +1,11 @@
-# About Me
+## About Me
 
 Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in finance and accounting. I am passionate in risk management, portfolio management, and process improvement.
 
 ## Education & Qualifications
 - FRM Part 1 Exam Candidate *(May 2024)*
 - CFA Level II Candidate *(Dec 2024)*
-- MS Finance & MBA - Suffolk University (Boston, MA)*(May 2022)*
+- MS Finance & MBA, Suffolk University (Boston, MA)*(May 2022)*
 
 ## Programming Languages & Applications:
 - **MS Excel**: working with *Pivot Table, PowerPivot, Data Model, vlookup, xlookup, match/index, data validation, etc.* on a daily basis.
@@ -17,9 +17,9 @@ Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in 
 Featuring: Data Wrangling, EDA, Logistic Regression.
 
 - [Which YouTubers for your brands? Identify the most effective YouTube videos to promote an AI & Data E-Learning Platform (Python)](https://www.datacamp.com/datalab/w/15569778-9ada-47d8-8bd0-04ff0de694bb)
-Featuring: Data Wrangling, EDA, Analytical Reasoning.
+Featuring: Data Wrangling, EDA, Analytical Reasoning. DataCamp competition.
 
 ## Work Experience
-- 04/2022 - Current: Financial Consultant, Leyton USA.
+- 03/2022 - Current: Financial Consultant, Leyton USA.
 - 01/2016 - 12/2019: Tax Manager & Senior Consultant, PwC. 
 - 08/2012 - 12/2014: Senior Consultant & Consultant, PwC.

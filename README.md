@@ -3,14 +3,13 @@
 Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in finance and accounting. I am passionate in risk management, portfolio management, and process improvement.
 
 ## Education & Qualifications
-- FRM Part 1 Exam Candidate
-- CFA Level II Candidate
-- MS Finance - Suffolk University (Boston, MA)
-- MBA - Suffolk University (Boston, MA)
+- FRM Part 1 Exam Candidate *(May 2024)*
+- CFA Level II Candidate *(Dec 2024)*
+- MS Finance & MBA - Suffolk University *(Boston, MA)(May 2022)*
 
 ## Programming Languages & Applications:
-- MS Excel (Pivot Table, PowerPivot, Data Model, vlookup, xlookup, match/index, data validation, etc.) 
-- Python: Pandas, NumPy, matpotlib, seaborn, scikit-learn, yfinance, PyPortfolioOpt, OpenCv
+- MS Excel: working with *Pivot Table, PowerPivot, Data Model, vlookup, xlookup, match/index, data validation, etc.* on a daily basis.
+- Python: working with *Pandas, NumPy, matpotlib, seaborn, scikit-learn, yfinance, PyPortfolioOpt, OpenCv* for my personal projects.
 - SQL
 
 ## Projects

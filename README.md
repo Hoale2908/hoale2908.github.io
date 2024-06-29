@@ -10,4 +10,3 @@ Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in 
 - [Predicting Corporate Default (Python)](https://github.com/Hoale2908/Predicting-Company-Default/blob/main/README.md)
 
 
-- [Which YouTubers for your brands? (Python)](https://www.datacamp.com/datalab/w/15569778-9ada-47d8-8bd0-04ff0de694bb) - A DataCamp competition. Identify the most effective YouTube videos to promote an AI & Data E-Learning Platform. 

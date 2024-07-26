@@ -8,5 +8,3 @@ Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in 
 
 
 - [Predicting Corporate Default (Python)](https://github.com/Hoale2908/Predicting-Company-Default/blob/main/README.md)
-
-

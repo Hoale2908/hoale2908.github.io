@@ -1,6 +1,6 @@
 ## About Me
 
-Hi! I'm Hoa Le, an *optimizationist* and Python enthusiast with a background in finance and accounting. I am passionate in risk management, portfolio management, and process improvement.
+Hi! I'm an *optimizationist* and Python enthusiast with a background in finance and accounting. Check out some of my work below!
 
 
 ## Projects

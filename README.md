@@ -1,8 +1,8 @@
 Hello! 👋 
 
-I'm a financial consultant with a background in finance and accounting. I'm also a Python enthusiast. I recently embarked on a new journey which I find very interesting and intellectural simulating - Risk Management. 
+My name is Hoa Le, I live in Boston, MA. I am currently a financial consultant in Boston, Massachusetts. I'm also a Python enthusiast. 
 
-Check out some of my personal projects below!
+I recently embarked on a new journey which I find very interesting and intellectural stimulating - Risk Management. Check out some of my personal projects below!
 
 -------
 

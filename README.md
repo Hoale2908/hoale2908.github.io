@@ -17,10 +17,12 @@ Check out some of my personal projects below!
 ## 🔋 PRODUCTIVITY BOOST 
 In addition to finance and risk, I am passionate about process improvement. I enjoy learning Python in my free time, and applying it to solve real life problems. 
 
-Some projects that save me (and my colleagues) from mundane tasks or expensive proprietary tools:
+Some projects that saved me (and my colleagues) from mundane tasks or expensive proprietary tools:
 
 - [Project ](link)
 - [Project ](link)
 - [Project ](link)
+
+----
 
 *This page will be added with more projects when they are ready to publish.*

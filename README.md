@@ -2,7 +2,7 @@ Hello! 👋
 
 My name is Hoa Le. I am currently working as a financial consultant in Boston, MA. 
 
-I recently embarked on a new career journey - Risk Management - which I find very interesting and intellectural stimulating. Fortunately, I'm also a Python enthusiast and there are so many areas in Risk Management for me to put my Python skills into practice.
+I recently embarked on a new career journey - Risk Management - which I find very interesting and intellectual stimulating. Fortunately, I'm also a Python enthusiast and there are so many areas in Risk Management for me to put my Python skills into practice.
 
 Check out some of my personal projects below!
 

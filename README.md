@@ -27,4 +27,4 @@ Some projects that saved me (and my colleagues) from mundane tasks or expensive 
 
 ----
 
-* 🏃🏻‍➡️ Practice makes perfect. This page will be added with more projects when they are ready to publish. *
+🏃🏻‍➡️ *Practice makes perfect. This page will be added with more projects when they are ready to publish.*

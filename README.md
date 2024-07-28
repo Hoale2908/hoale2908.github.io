@@ -21,10 +21,10 @@ In addition to finance and risk, I am passionate about process improvement. I en
 
 Some projects that saved me (and my colleagues) from mundane tasks or expensive proprietary tools:
 
-- [Project ](link)
+- [PDF to Excel Data Extraction](https://github.com/Hoale2908/PDF_Convert_and_Extract/tree/main)
 - [Project ](link)
 - [Project ](link)
 
 ----
 
-*Practice makes perfect. This page will be added with more projects when they are ready to publish.*
+* 🏃🏻‍➡️ Practice makes perfect. This page will be added with more projects when they are ready to publish. *

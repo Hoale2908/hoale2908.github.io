@@ -1,6 +1,6 @@
 Hello! 👋 
 
-My name is Hoa Le, I live in Boston, MA. I am currently a financial consultant in Boston, Massachusetts. I'm also a Python enthusiast. 
+My name is Hoa Le. I live in Boston, MA. I am currently a financial consultant in Boston, Massachusetts. I'm also a Python enthusiast. 
 
 I recently embarked on a new journey which I find very interesting and intellectural stimulating - Risk Management. Check out some of my personal projects below!
 

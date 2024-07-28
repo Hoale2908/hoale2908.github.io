@@ -9,8 +9,8 @@ I recently embarked on a new journey which I find very interesting and intellect
 ## 💰 CREDIT RISK
 - [Predicting Corporate Default (Python)](https://github.com/Hoale2908/Predicting-Company-Default/blob/main/README.md)
 - [Predicting Retail Mortgage Default (Python)](https://github.com/Hoale2908/retail_mortgage/blob/a4f35e5efdadcb9ecf4a7e41cda5a45583035766/Retail%20Mortgage%20Portfolio%20Model.ipynb)
-
-
+- Stress Testing (in progress)
+- Monte Carlo simulation (in progress)
 
 -------
 
@@ -25,4 +25,4 @@ Some projects that saved me (and my colleagues) from mundane tasks or expensive 
 
 ----
 
-*This page will be added with more projects when they are ready to publish.*
+*Practice makes perfect. This page will be added with more projects when they are ready to publish.*

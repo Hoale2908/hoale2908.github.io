@@ -2,7 +2,7 @@ Hello! 👋
 
 My name is Hoa Le. I am currently working as a financial consultant in Boston, MA. 
 
-I recently embarked on a new career journey - Risk Management - which I find very interesting and intellectual stimulating. Fortunately, I'm also a Python enthusiast and there are so many areas in Risk Management for me to put my Python skills into practice.
+I recently embarked on a new career journey - Risk Management, an area I find very interesting and intellectual stimulating. Fortunately, I'm also a Python enthusiast and there are so many areas in Risk Management for me to put my Python skills into practice.
 
 Check out some of my personal projects below!
 
@@ -16,15 +16,5 @@ Check out some of my personal projects below!
 
 -------
 
-## 🔋 PRODUCTIVITY BOOST 
-In addition to finance and risk, I am passionate about process improvement. I enjoy learning Python in my free time, and applying it to solve real life problems. 
-
-Some projects that saved me (and my colleagues) from mundane tasks or expensive proprietary tools:
-
-- [PDF to Excel Data Extraction](https://github.com/Hoale2908/PDF_Convert_and_Extract/tree/main)
-- [Project ](link)
-- [Project ](link)
-
-----
 
 🏃🏻‍➡️ *Practice makes perfect. This page will be added with more projects when they are ready to publish.*

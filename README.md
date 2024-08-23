@@ -9,8 +9,8 @@ Check out some of my personal projects below!
 -------
 
 ## 💰 Credit Risk
-- [Predicting Corporate Default (Python)](https://github.com/Hoale2908/Predicting-Company-Default/blob/main/README.md)
-- [Predicting Retail Mortgage Default (Python)](https://github.com/Hoale2908/retail_mortgage/blob/a4f35e5efdadcb9ecf4a7e41cda5a45583035766/Retail%20Mortgage%20Portfolio%20Model.ipynb)
+- [Predicting Corporate Default (Python)](https://github.com/Hoale2908/Predicting-Company-Default/tree/main)
+- [Predicting Retail Mortgage Default (Python)](https://github.com/Hoale2908/retail_mortgage)
 - Stress Testing (in progress)
 - KMV Model (in progress)
 

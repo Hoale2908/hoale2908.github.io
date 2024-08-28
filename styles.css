@@ -1,4 +1,6 @@
-h1 {text-align: center;}
+h1 {
+    text-align: center;
+}
 
 body {
     background-color: rgba(229, 229, 229, 0.574);
@@ -6,5 +8,8 @@ body {
 }
 
 .main {
-    padding: 50px
+    padding: 50px;
+    width: 80%;
+    margin: auto;
 }
+

@@ -3,3 +3,7 @@ h1 {text-align: center;}
 body {
     background-color: rgba(229, 229, 229, 0.574);
 }
+
+.main {
+    padding: 50px
+}

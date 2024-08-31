@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 body {
     background-color: rgba(229, 229, 229, 0.574);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

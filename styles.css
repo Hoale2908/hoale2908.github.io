@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin-top: 0px;
 }
 
 h2 {
@@ -21,4 +22,12 @@ footer {
     width: 80%;
     margin: auto;
     text-align: center;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: lightskyblue;
 }

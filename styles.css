@@ -9,19 +9,20 @@ h2 {
 
 body {
     background-color: rgba(229, 229, 229, 0.574);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .main {
     padding: 50px;
     width: 80%;
     margin: auto;
+    font-size: 14px;
 }
 
 footer {
     width: 80%;
     margin: auto;
-    text-align: center;
+    font-size: 14px;
 }
 
 a {

@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     margin-top: 80px;
-    color: #8F655E;
+    color: #2c1f25dd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
 }
@@ -30,15 +30,13 @@ body {
 }
 
 main {
-    padding: 50px;
     width: 75%;
     max-width: 800px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
-    background-color: rgba(255,255,255,0.5);
-    border-radius: 1%;
+    
     
 }
 
@@ -58,7 +56,9 @@ a:hover {
 }
 
 .greeting {
-    margin-top: -10px;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 1%;
 
 }
 
@@ -74,6 +74,7 @@ p {
     display: inline-block;
     text-align: start;
     vertical-align: text-top;
+
 }
 
 .projectbox {

@@ -1,34 +1,54 @@
 h1 {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 50px;
+    color: #8F655E;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
 }
 
 h2 {
     font-size: 24px;
+    color: #8F655E; 
 }
 
 body {
-    background-color: rgba(229, 229, 229, 0.574);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F0E0C3;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2C1F25;
 }
 
-.main {
+main {
     padding: 50px;
     width: 75%;
-    margin: auto;
-    font-size: 14px;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.5);
 }
 
 footer {
     width: 80%;
     margin: auto;
     font-size: 14px;
+    color: #8F989A;
 }
 
 a {
-    color: darkblue;
+    color: #A5969D;
 }
 
 a:hover {
-    color: lightskyblue;
+    color: #8F655E;
+}
+
+.greeting {
+    margin-top: -10px;
+
+}
+
+p {
+    word-spacing: 1.5px;
+    line-height: 130%;
 }

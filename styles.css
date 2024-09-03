@@ -1,20 +1,32 @@
 h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 80px;
     color: #8F655E;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
 }
 
 h2 {
-    font-size: 24px;
-    color: #8F655E; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #8F655E;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: center;  
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8F989A;
+    margin-top: 20px;
+    text-align: left;  
 }
 
 body {
     background-color: #F0E0C3;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #2C1F25;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #A5969D;
 }
 
 main {
@@ -26,6 +38,8 @@ main {
     margin-right: auto;
     font-size: 16px;
     background-color: rgba(255,255,255,0.5);
+    border-radius: 1%;
+    
 }
 
 footer {
@@ -50,5 +64,32 @@ a:hover {
 
 p {
     word-spacing: 1.5px;
-    line-height: 130%;
+    line-height: 140%;
+}
+
+.project {
+    margin-top: auto;
+    margin-right: 4.5%;
+    width: 45%;
+    display: inline-block;
+    text-align: start;
+    vertical-align: text-top;
+}
+
+.projectbox {
+    display: inline-block;
+}
+
+hr {
+    color:#8f989a51
+}
+
+input[type="submit"] {
+    background-color: #ffffffb1;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color:#8F989A;
+    box-shadow: 2px 2px 2px 1px rgba(55, 55, 55, 0.2);
+    border-style: none;
+    
+
 }

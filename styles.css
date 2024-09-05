@@ -10,17 +10,17 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     color: #8F655E;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;  
 }
 
 h3 {
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #8F989A;
     margin-top: 20px;
-    text-align: center;  
+    text-align: left;  
 }
 
 body {
@@ -65,23 +65,26 @@ p {
 }
 
 .project {
-    margin-top: auto;
+    margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
-    width: 38%;
+    width: 35%;
     display: inline-block;
     text-align: left;
-    vertical-align: baseline;
+    vertical-align: top;
+    border-left: 1mm ridge #dfd9d8;
+    padding-left: 20px;
     
 }
 
 .projectbox {
     display: inline-block;
+    margin-top: 20px;
 }
 
 hr {
     color:#8f989a51;
-    width: 90%;
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -91,6 +94,7 @@ input[type="submit"] {
     box-shadow: 2px 2px 2px 1px rgba(55, 55, 55, 0.2);
     border-style: none;
     margin-bottom: 20px;
+    
 
 }
 

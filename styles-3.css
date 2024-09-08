@@ -52,7 +52,7 @@ a:hover {
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #1b173ee3;
+    background-color: #110e27e3;
     border-radius: 1em;
 
 }
@@ -63,20 +63,18 @@ p {
 }
 
 .project {
-    margin: 2%;
-    width: 25%;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
+    margin: 1%;
     padding-left: 20px;
     padding-right: 20px;
     background-color: #FBFAF9;
     border-radius: 1em;
+    flex: 200px;
     
 }
 
 .portfolio {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
     background-color: #8781a2dc;
     color: #262157;

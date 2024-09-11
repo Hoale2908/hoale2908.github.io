@@ -54,7 +54,6 @@ a:hover {
     padding-bottom: 20px;
     background-color: #110e27e3;
     border-radius: 1em;
-
 }
 
 p {
@@ -66,19 +65,22 @@ p {
     margin: 1%;
     padding-left: 20px;
     padding-right: 20px;
+    min-width: 200px;
+    max-width: 350px;
     background-color: #FBFAF9;
     border-radius: 1em;
     flex: 200px;
-    
 }
 
 .portfolio {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 20px;
     background-color: #8781a2dc;
     color: #262157;
     border-radius: 1em;
+    justify-content: center;
 }
 
 hr {
@@ -94,8 +96,6 @@ input[type="submit"] {
     box-shadow: 2px 2px 2px 1px rgba(55, 55, 55, 0.2);
     border-style: none;
     margin-bottom: 15px;
-    
-
 }
 
 footer {

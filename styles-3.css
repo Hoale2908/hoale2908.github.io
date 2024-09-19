@@ -21,7 +21,8 @@ h3 {
     color: #221b48;
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: center;  
+    text-align: center;
+    height: 70px;  
 }
 
 body {
@@ -76,6 +77,7 @@ p {
     display: block;
     max-width: 200px;
     margin: auto auto;
+    height: 200px;
 }
 
 .portfolio {
@@ -92,6 +94,7 @@ p {
 hr {
     color:#9C95B0;
     width: 90%;
+    margin-top: 10px;
 }
 
 input[type="submit"] {

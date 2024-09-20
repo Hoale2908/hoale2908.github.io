@@ -67,10 +67,10 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     min-width: 200px;
-    max-width: 350px;
+    max-width: 450px;
     background-color: #FBFAF9;
     border-radius: 1em;
-    flex: 200px;
+    flex: 440px;
 }
 
 .project_img {
@@ -98,7 +98,6 @@ hr {
 }
 
 input[type="submit"] {
-   /* background-color: #8781A2;*/
     background-color: #262157ce;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color:#FBFAF9;

@@ -101,9 +101,10 @@ input[type="submit"] {
     background-color: #262157ce;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color:#FBFAF9;
-    box-shadow: 2px 2px 2px 1px rgba(55, 55, 55, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(55, 55, 55, 0.3);
     border-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    padding: 5px;
 }
 
 footer {
@@ -113,4 +114,8 @@ footer {
     color: #998FAB;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tech {
+    font-style: italic;
 }

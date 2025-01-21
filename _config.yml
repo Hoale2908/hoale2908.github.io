@@ -1,10 +1,8 @@
-# title: Harvey Le
-logo: /assets/img/image.png
-description: 
-  Harvey Le's personal website
-
-theme: jekyll-theme-minimal
-# plugins:
-# - jekyll-remote-theme
-
-permalink: /:categories/:title/
+title: Harvey Le's Personal Website
+description: Harvey Le's personal blog and portfolio
+baseurl: "" # Leave empty for GitHub Pages root
+url: "https://hoale2908.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate

@@ -1,6 +1,7 @@
 # title: Harvey Le
 logo: /assets/img/image.png
 description: FRM | CFA | MBA, MS Finance
-remote_theme: pages-themes/minimal@v0.2.0
+# remote_theme: pages-themes/minimal@v0.2.0
+theme: minima
 plugins:
 - jekyll-remote-theme

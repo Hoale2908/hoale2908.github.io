@@ -1,9 +1,9 @@
 layout: post
-title: "A-Snow-Day-in-Boston-and-a-Python-Project"
+title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-21
-categories: python dataanalysis reflection
+tags: [python, data analysis, reflection]
 
-# A Snow Day in Boston... and a Python Project
+# A Snow Day in Boston and a Python Project
 
 It was snowing here in Boston on a long weekend (Martin Luther King's day) as it usually does every winter. But yesterday there was a snowstorm coming and the Weather app on iPhone (or some other website behind it) predicted that it would start at 1 PM. I delayed my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematc T during such condition. As I stayed at home, I wondered if it has been snowing more or less over the recent years in Boston? How often does Boston have snow or storms? And there I decided to find the answers through data, which led me to a small yet interesting project.
 

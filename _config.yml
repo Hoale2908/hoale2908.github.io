@@ -2,10 +2,9 @@
 logo: /assets/img/image.png
 description: 
   Harvey Le's personal website
-# remote_theme: pages-themes/minimal@v0.2.0
 header_pages:
-  - about.md
-  - portfolio.md
+  - about me.md
+
 theme: jekyll-theme-minimal
 # plugins:
 # - jekyll-remote-theme

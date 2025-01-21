@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
+  <title>Blogs</title>
   <link rel="stylesheet" href="/assets/styles.css">
   <style>
     body {
@@ -43,23 +43,22 @@
       color: #333;
     }
 
-    .tags {
-      margin-top: 10px;
+    .post-list {
+      list-style: none;
+      padding: 0;
     }
 
-    .tags a {
-      margin-right: 10px;
+    .post-list li {
+      margin-bottom: 15px;
+    }
+
+    .post-list a {
       text-decoration: none;
       color: #1d72b8;
     }
 
-    .tags a:hover {
+    .post-list a:hover {
       text-decoration: underline;
-    }
-
-    .social-share a {
-      display: inline-block;
-      margin-right: 10px;
     }
   </style>
 </head>
@@ -73,29 +72,15 @@
   </header>
 
   <div class="container">
-    <h1>{{ page.title }}</h1>
-    <p>Published on {{ page.date | date: "%B %d, %Y" }}</p>
-
-    <div class="tags">
-      {% if page.tags %}
-      Tags:
-      {% for tag in page.tags %}
-      <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
+    <h1>Blogs</h1>
+    <ul class="post-list">
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <p>Published on {{ post.date | date: "%B %d, %Y" }}</p>
+      </li>
       {% endfor %}
-      {% endif %}
-    </div>
-
-    <div class="post-content">
-      {{ content }}
-    </div>
-
-    <div class="social-share">
-      <h3>Share this post:</h3>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}">Facebook</a>
-      <a href="https://x.com/intent/tweet?url={{ page.url | absolute_url }}">X</a>
-      <a href="https://threads.net/share?url={{ page.url | absolute_url }}">Threads</a>
-      <a href="mailto:?subject={{ page.title }}&body=Check out this post: {{ page.url | absolute_url }}">Email</a>
-    </div>
+    </ul>
   </div>
 </body>
 </html>

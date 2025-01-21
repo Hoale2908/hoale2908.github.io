@@ -6,7 +6,7 @@ description:
 header_pages:
   - about.md
   - portfolio.md
-theme: minima
+theme: jekyll-theme-minimal
 # plugins:
 # - jekyll-remote-theme
 

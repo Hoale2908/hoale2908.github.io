@@ -1,1 +1,15 @@
-test homepage
+---
+layout: default
+title: "Home"
+---
+
+<h1>Welcome to Hoa's Blog</h1>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p><small>Published on {{ post.date | date: "%B %d, %Y" }}</small></p>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>

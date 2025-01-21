@@ -1,6 +1,6 @@
 layout: post
 title: "A-Snow-Day-in-Boston-and-a-Python-Project"
-date: 2025-01-21 05:12:30
+date: 2025-01-21
 categories: python dataanalysis reflection
 
 # A Snow Day in Boston... and a Python Project

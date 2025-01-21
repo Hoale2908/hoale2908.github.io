@@ -1,7 +1,22 @@
 # title: Harvey Le
 logo: /assets/img/image.png
-description: FRM | CFA | MBA, MS Finance
+description: > # this means to ignore newlines until "baseurl:"
+  Harvey Le's personal website
 # remote_theme: pages-themes/minimal@v0.2.0
+header_pages:
+  - about.md
+  - portfolio.md
 theme: minima
 plugins:
 - jekyll-remote-theme
+
+lsi: false
+safe: true
+source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge

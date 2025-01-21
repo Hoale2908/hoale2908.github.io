@@ -1,12 +1,9 @@
 ---
 layout: default
-title: "About Me"
-permalink: /about
+title: "Home"
+permalink: /home
 ---
 
-# test
-
-## heading 2
 
 Hello! 👋 
 

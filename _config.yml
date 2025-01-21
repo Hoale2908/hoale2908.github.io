@@ -2,8 +2,6 @@
 logo: /assets/img/image.png
 description: 
   Harvey Le's personal website
-header_pages:
-  - about me.md
 
 theme: jekyll-theme-minimal
 # plugins:

@@ -1,18 +1,21 @@
+---
 layout: post
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-21
 tags: [python, data analysis, reflection]
+---
 
 # A Snow Day in Boston and a Python Project
 
-It was snowing here in Boston on a long weekend (Martin Luther King's day) as it usually does every winter. But yesterday there was a snowstorm coming and the Weather app on iPhone (or some other website behind it) predicted that it would start at 1 PM. I delayed my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematc T during such condition. As I stayed at home, I wondered if it has been snowing more or less over the recent years in Boston? How often does Boston have snow or storms? And there I decided to find the answers through data, which led me to a small yet interesting project.
+It was snowing here in Boston on a long weekend (Martin Luther King's day) as it usually does every winter. But yesterday there was a snowstorm coming and the Weather app on iPhone (or some other website behind it) predicted that it would start at 1 PM. I delayed my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematc T during such condition. 
+
+As I stayed at home, I wondered if it has been snowing more or less over the recent years in Boston? How often does Boston have snow or storms? And there I decided to find the answers through data, which led me to a small yet interesting project.
 
 ## So, what is this project?
 
 I downloaded the Massachusetts weather data from January 2019 to August 2024 from the NOAA website. It contained more than 15 types of weather events in all MA counties, with time, location, and a few more data. Because I had to download data manually, and each period of data downloaded should have less than 500 records, I didn't have time to get more data. 
 
 Boston's weather (Suffolk county) is tough but my analysis shows that it is wayyy tougher in Worcester, Berkshire, and Middlesex -- they are the hotspots for extreme weather in this state. Do not buy a house in Berkshire County if you don't want to face the most kinds of extreme weather: snow storms and extreme cold in the winter; floods, heat and hails in the summer; and strong winds.
-(img)[https://github.com/Hoale2908/MA_Weather/raw/main/image-2.png]
 
 My friends and I use to "complain" that we don't have as much snow as before, and we are right. The number of snow events significantly decreased in 2020, and stayed low ever since with only minimal increase. Looking at the trend of heavy snows, I can anticipate to see a few more coming to Boston before April.
 

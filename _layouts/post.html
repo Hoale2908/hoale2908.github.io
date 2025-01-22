@@ -1,101 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
+---
+layout: default
+---
 
-    header {
-      background-color: #333;
-      color: white;
-      padding: 1em 0;
-    }
-
-    nav {
-      text-align: center;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 0 15px;
-    }
-
-    h1 {
-      color: #333;
-    }
-
-    .tags {
-      margin-top: 10px;
-    }
-
-    .tags a {
-      margin-right: 10px;
-      text-decoration: none;
-      color: #1d72b8;
-    }
-
-    .tags a:hover {
-      text-decoration: underline;
-    }
-
-    .social-share a {
-      display: inline-block;
-      margin-right: 10px;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/posts.html' | relative_url }}">Posts</a>
-      <a href="{{ '/resume.html' | relative_url }}">Resume</a>
-    </nav>
-  </header>
-
-  <div class="container">
-    <h1>{{ page.title }}</h1>
-    <p>Published on {{ page.date | date: "%B %d, %Y" }}</p>
-
-    <div class="tags">
-      {% if page.tags %}
-      Tags:
-      {% for tag in page.tags %}
-      <a href="/tags/{{ tag | slugify }}">{{ tag }}</a>
-      {% endfor %}
-      {% endif %}
-    </div>
-
-    <div class="post-content">
-      {{ content }}
-    </div>
-
-    <div class="social-share">
-      <h3>Share this post:</h3>
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}">Facebook</a>
-      <a href="https://x.com/intent/tweet?url={{ page.url | absolute_url }}">X</a>
-      <a href="https://threads.net/share?url={{ page.url | absolute_url }}">Threads</a>
-      <a href="mailto:?subject={{ page.title }}&body=Check out this post: {{ page.url | absolute_url }}">Email</a>
-    </div>
+<div class="post-content">
+  <h1>{{ page.title }}</h1>
+  <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
+  <div>
+    {{ content }}
   </div>
-</body>
-</html>
+</div>

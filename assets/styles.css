@@ -1,0 +1,43 @@
+/* Global body settings */
+body {
+    font-family: "Arial", sans-serif;  /* Use a clean, sans-serif font for better readability */
+    line-height: 1.6;  /* Increase line height for better text flow */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Light background for better contrast */
+    color: #333;  /* Darker text for better contrast */
+  }
+  
+  /* Post content styles */
+  .post-content {
+    font-family: "Georgia", serif;  /* Serif font for posts gives a more readable appearance */
+    font-size: 18px;  /* Increase font size */
+    line-height: 1.8;  /* More space between lines */
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;  /* Limit text width for readability */
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow for visual depth */
+    border-radius: 8px;  /* Rounded corners for a clean look */
+  }
+  
+  /* Add space between paragraphs */
+  .post-content p {
+    margin-bottom: 1.5em;  /* Space between paragraphs */
+  }
+  
+  /* Add space after headings */
+  .post-content h1, .post-content h2, .post-content h3 {
+    margin-bottom: 1em;
+    color: #333;
+  }
+  
+  /* Adjust link appearance */
+  .post-content a {
+    color: #0077cc;  /* Link color */
+    text-decoration: none;
+  }
+  
+  .post-content a:hover {
+    text-decoration: underline;
+  }

@@ -33,7 +33,7 @@ Here's some interesting insights:
 ![Events by type](https://github.com/Hoale2908/MA_Weather/raw/main/image.png)
 
 
-The full analysis with code can be found [here](https://github.com/Hoale2908/MA_Weather/tree/main)
+The full analysis with code can be found [here](https://github.com/Hoale2908/MA_Weather/tree/main).
 
 
 ## What did I learn in term of data analysis?
@@ -55,12 +55,10 @@ Moreover, grouping events into larger groups were also helpful for visualization
 It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix it, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
 
 
-I hope you enjoy learning more about the weather in Massachusetts as much as I did.
-
-
 <center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427">
+<br>
+Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </center>
 
-Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
-Jan 20, 2025.
-Boston, MA </center>
+<br>
+I had a wonderful time staying warm inside and following my curiousity for new discovery. I hope you enjoy learning more about the weather in Massachusetts as much as I did.

@@ -2,10 +2,44 @@
 layout: default
 ---
 
-<div class="post-content">
+<article class="post-content">
   <h1>{{ page.title }}</h1>
-  <p><em>{{ page.date | date: "%B %d, %Y" }}</em></p>
-  <div>
-    {{ content }}
+  <p><small>Published on {{ page.date | date: "%B %d, %Y" }}</small></p>
+
+  {{ content }}
+
+  <div class="post-buttons">
+    <!-- Print Button -->
+    <button onclick="window.print()">🖨️ Print</button>
+
+    <!-- Email Button -->
+    <button onclick="emailPost()">📧 Email</button>
+
+    <!-- Share Button -->
+    <button onclick="sharePost()">🔗 Share</button>
   </div>
-</div>
+</article>
+
+<script>
+  // Email the current post
+  function emailPost() {
+    const subject = encodeURIComponent("Check out this post: {{ page.title }}");
+    const body = encodeURIComponent("I found this post interesting and wanted to share it with you:\n\n{{ page.url | absolute_url }}");
+    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+  }
+
+  // Share the current post via the Web Share API
+  function sharePost() {
+    if (navigator.share) {
+      navigator.share({
+        title: "{{ page.title }}",
+        text: "Check out this post I found!",
+        url: "{{ page.url | absolute_url }}"
+      })
+      .then(() => console.log("Thanks for sharing!"))
+      .catch((error) => console.log("Error sharing:", error));
+    } else {
+      alert("Sharing is not supported on your browser.");
+    }
+  }
+</script>

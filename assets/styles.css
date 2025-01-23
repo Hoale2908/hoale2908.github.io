@@ -62,8 +62,8 @@ footer {
 
 /* Post Content Styles */
 .post-content {
-  font-family: "Georgia", serif;
-  font-size: 18px;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
   line-height: 1.8;
   margin: 30px auto;
   padding: 20px;

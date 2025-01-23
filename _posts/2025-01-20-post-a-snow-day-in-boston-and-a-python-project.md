@@ -2,7 +2,7 @@
 layout: post
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-20
-tags: [python, data analysis, reflection]
+tags: [python, data analysis,]
 ---
 
 It was snowing here in Boston on a long holiday weekend as it usually does every winter. But yesterday there was a snowstorm coming. I canceled my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematic subway during such condition. 
@@ -50,14 +50,14 @@ I also found out that the categories were not 100% correct, such as those mentio
 
 Moreover, grouping events into larger groups were also helpful for visualization because most people would struggle differentiating more than 5-6 categories in one chart. So I grouped events into flood-related, wind-related, snow-related, and so on. Grouping counties and zones with the same name (e.g. Berkshire County and Berkshire Zone), and months into seasons were also done. This proved to be very useful for analysis. 
 
-### Visualziation: Only show one or two key ideas
+### Visualization: Only show one or two key ideas
 
 It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix it, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
 
 
-<center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427">
-<br></br>
-Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </center>
+<center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427"></center>
+
+<center>Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </center>
 
 
 <br>

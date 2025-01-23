@@ -3,49 +3,65 @@ layout: default
 title: Posts
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-</head>
-<body>
+<div class="container">
+  <h1>Blog Posts</h1>
 
-  <main>
-    <div class="container">
-      <h1>Blog Posts</h1>
-      <p>Browse my posts by category:</p>
-
-      <!-- List categories with their posts -->
-      {% for category in site.categories %}
-      <h2>{{ category[0] | capitalize }}</h2>
-      <ul>
-        {% for post in category[1] %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span> - {{ post.date | date: "%B %d, %Y" }}</span>
-        </li>
-        {% endfor %}
-      </ul>
-      {% endfor %}
-
-      <p>Or browse by tags:</p>
-
-      <!-- List tags with links -->
-      {% assign sorted_tags = site.tags | sort %}
-      <ul class="tags">
-        {% for tag in sorted_tags %}
-        <li>
-          <a href="{{ '/tag/' | append: tag[0] | relative_url }}">{{ tag[0] | capitalize }}</a>
-          ({{ tag[1].size }})
-        </li>
-        {% endfor %}
-      </ul>
+  <!-- Featured Post -->
+  <section>
+    <h2>Featured Post</h2>
+    {% assign featured_post = site.posts | first %}
+    {% if featured_post %}
+    <div class="featured-post">
+      <h3><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h3>
+      <p>{{ featured_post.excerpt | strip_html | truncate: 150 }}</p>
+      <span>Published on {{ featured_post.date | date: "%B %d, %Y" }}</span>
     </div>
-  </main>
+    {% else %}
+    <p>No featured post available.</p>
+    {% endif %}
+  </section>
 
+  <!-- Most Recent Posts -->
+  <section>
+    <h2>Recent Posts</h2>
+    <ul>
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    <p><a href="/all-posts.html">View All Posts</a></p>
+  </section>
 
-</body>
-</html>
+  <!-- Browse by Categories -->
+  <section>
+    <h2>Browse by Category</h2>
+    {% for category in site.categories %}
+    <h3>{{ category[0] | capitalize }}</h3>
+    <ul>
+      {% for post in category[1] %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span> - {{ post.date | date: "%B %d, %Y" }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endfor %}
+  </section>
+
+  <!-- Browse by Tags -->
+  <section>
+    <h2>Browse by Tags</h2>
+    <ul class="tags">
+      {% assign sorted_tags = site.tags | sort %}
+      {% for tag in sorted_tags %}
+      <li>
+        <a href="{{ '/tag/' | append: tag[0] | relative_url }}">{{ tag[0] | capitalize }}</a>
+        ({{ tag[1].size }})
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>

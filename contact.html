@@ -1,0 +1,51 @@
+---
+layout: default
+title: Contact
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/blogs.html' | relative_url }}">Blogs</a>
+      <a href="{{ '/resume.html' | relative_url }}">Resume</a>
+      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out to me through the following platforms:</p>
+
+      <!-- Social Links -->
+      <div class="social-links">
+        <a href="mailto:hoa.letp@gmail.com" target="_blank">
+          <img src="{{ '/assets/icons/email.png' | relative_url }}" alt="Email" class="icon">
+          Email Me
+        </a>
+        <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
+          <img src="{{ '/assets/icons/linkedin.png' | relative_url }}" alt="LinkedIn" class="icon">
+          LinkedIn
+        </a>
+        <a href="https://github.com/hoale2908" target="_blank">
+          <img src="{{ '/assets/icons/github.png' | relative_url }}" alt="GitHub" class="icon">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Harvey Le 's Personal Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

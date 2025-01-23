@@ -63,8 +63,8 @@ footer {
 /* Post Content Styles */
 .post-content {
   font-family: "Georgia", serif;
-  font-size: 14px;
-  line-height: 1.8;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 30px auto;
   padding: 20px;
   max-width: 800px;
@@ -112,4 +112,32 @@ footer {
 
 .post-buttons button:hover {
   background-color: #005fa3;
+}
+
+/* Social Links Styling */
+.social-links {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0077cc;
+  font-size: 18px;
+  font-weight: bold;
+  gap: 10px; /* Space between icon and text */
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+.social-links .icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }

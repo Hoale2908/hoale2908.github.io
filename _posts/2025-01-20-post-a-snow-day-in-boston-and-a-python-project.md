@@ -5,14 +5,10 @@ date: 2025-01-20
 tags: [python, data analysis, reflection]
 ---
 
-![Boston in snow](assets/img/boston-in-snow.jpg)
-
-Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      
-
 It was snowing here in Boston on a long holiday weekend as it usually does every winter. But yesterday there was a snowstorm coming. I canceled my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematic subway during such condition. 
 
 As I stayed at home, I wondered if it has been snowing more or less over the recent years in Boston, and how often Boston had snowstorms. And so I decided to find the answers through data, which led me to a simple yet interesting project. 
+
 
 ## So, what is this project?
 
@@ -56,7 +52,15 @@ Moreover, grouping events into larger groups were also helpful for visualization
 
 ### Visualziation: Only show one or two key ideas
 
-It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix that, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
+It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix it, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
 
 
 I hope you enjoy learning more about the weather in Massachusetts as much as I did.
+
+
+<center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427">
+
+Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Jan 20, 2025.
+Boston, MA </center>

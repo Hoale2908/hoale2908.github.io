@@ -147,3 +147,29 @@ footer {
 .social-links a:hover .icon {
   filter: brightness(1.2);
 }
+
+.tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tags li {
+  display: inline-block;
+}
+
+.tags a {
+  text-decoration: none;
+  color: white;
+  background-color: #0077cc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tags a:hover {
+  background-color: #005fa3;
+}

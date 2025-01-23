@@ -139,5 +139,11 @@ footer {
 .social-links .icon {
   width: 24px;
   height: 24px;
-  object-fit: contain;
+  object-fit: contain; /* Ensures the icon maintains its aspect ratio */
+  display: inline-block;
+  vertical-align: middle; /* Aligns icon with text properly */
+}
+
+.social-links a:hover .icon {
+  filter: brightness(1.2);
 }

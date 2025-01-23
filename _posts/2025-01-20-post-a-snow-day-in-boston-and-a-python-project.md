@@ -56,7 +56,7 @@ It is a common mistake to use complex charts because they look "fancy" and "smar
 
 
 <center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427">
-<br>
+<br></br>
 Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </center>
 
 

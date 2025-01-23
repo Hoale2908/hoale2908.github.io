@@ -1,9 +1,14 @@
 ---
 layout: post
 title: "A Snow Day in Boston and a Python Project"
-date: 2025-01-21
+date: 2025-01-20
 tags: [python, data analysis, reflection]
 ---
+
+![Boston in snow](assets/img/boston-in-snow.jpg)
+
+Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
 
 It was snowing here in Boston on a long holiday weekend as it usually does every winter. But yesterday there was a snowstorm coming. I canceled my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematic subway during such condition. 
 
@@ -11,9 +16,9 @@ As I stayed at home, I wondered if it has been snowing more or less over the rec
 
 ## So, what is this project?
 
-I found the Massachusetts weather data from January 2019 to August 2024 from the NOAA website. It contained more than 15 types of weather events in all MA counties, with time, location, and a few more data. Because the data can only be downloaded manually and each file can have less than 500 records, I went ahead and download the data of the last 5 years.
+I found the Massachusetts weather data from January 2019 to August 2024 from the NOAA website. It contained more than 15 types of weather events in all MA counties, with time, location, and a few more data.
 
-Here's what I found:
+Here's some interesting insights: 
 
 - The weather in Boston (Suffolk county) is tough but my analysis shows that it is way tougher in Worcester, Berkshire, and Middlesex -- they are the hotspots for extreme weather in this state. Do not buy a house in Berkshire County if you don't want to face the most kinds of extreme weather: snow storms and extreme cold in the winter; floods, heat and hails in the summer; and strong winds.
 
@@ -26,15 +31,20 @@ Here's what I found:
 
 ![Heavy snows](https://github.com/Hoale2908/MA_Weather/raw/main/image-5.png)
 
+
 - Perhaps what surprised me the most was the number of events related to thunderstorm and wind. Boston truly lives up to the legend of a windy and freezing cold New England. No wonder why it is so hard for me (and my chronic sinuses) to adapt. This is a good lesson - always do a research on the weather before moving to a new city.
 
 ![Events by type](https://github.com/Hoale2908/MA_Weather/raw/main/image.png)
+
+
+The full analysis with code can be found [here](https://github.com/Hoale2908/MA_Weather/tree/main)
+
 
 ## What did I learn in term of data analysis?
 
 ### Find data sources and compiling data
 
-I started with a Google search for "snow storm data" and it led me to several websites. However, they all seemed to point to the NOAA National Centers for Environmental Information's website. They are researchers, not a commercial company so the portal was not very user-friendly. I had to manually download pieces of data in CSV, then concatenating them. I uploaded the final dataset on [Kaggle](https://www.kaggle.com/datasets/hoale2908/massachusetts-weather) so others can use it. 
+I started with a Google search for "snow storm data" and it led me to several websites. However, they all seemed to point to the NOAA National Centers for Environmental Information's website. They are researchers, not a commercial company so the portal was not very user-friendly. Because the data can only be downloaded manually and each file can have less than 500 records, I went ahead and downloaded the data of the last 5 years. After joining them together, I uploaded the final dataset on [Kaggle](https://www.kaggle.com/datasets/hoale2908/massachusetts-weather) so others can use it. 
 
 ### Investigate data for reclassification
 
@@ -48,4 +58,5 @@ Moreover, grouping events into larger groups were also helpful for visualization
 
 It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix that, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
 
-I had a great time staying warm inside and have my curiousity help me 
+
+I hope you enjoy learning more about the weather in Massachusetts as much as I did.

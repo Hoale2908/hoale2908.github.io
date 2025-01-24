@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
-  </head>
-  
-<body>
-  <header>
-    <nav>
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a>
-      <a href="{{ '/posts.html' | relative_url }}">Posts</a>
-      <a href="{{ '/resume.html' | relative_url }}">Resume</a>
-      
-    </nav>
-  </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+        <style>
+            /* Global minimalist styles */
+            body {
+                font-family: "Arial", sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff; /* White background */
+                color: #333; /* Dark text for readability */
+            }
 
-  <div class="container">
-    {{ content }}
-  </div>
+            .content {
+                width: 80%;
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #ffffff; /* White content background */
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
 
-  <footer>
-    <div class="footer-container">
-      <p>&copy; 2025 Harvey Le's Personal Website. All rights reserved.</p>
-      <div class="contact-details">
-        <p>Email: <a href="mailto:hoa.letp@gmail.com">hoa.letp@gmail.com</a></p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
-            <img src="assets/icons/linkedin.png" alt="LinkedIn"> LinkedIn
-          </a>
-          <a href="https://github.com/Hoale2908" target="_blank">
-            <img src="assets/icons/github.png" alt="GitHub"> GitHub
-          </a>
-          <a href="https://www.kaggle.com/hoale2908" target="_blank">
-            <img src="assets/icons/kaggle.png" alt="Kaggle"> Kaggle
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+            header {
+                text-align: center;
+                padding: 20px 0;
+                background-color: #f8f9fa;
+                border-bottom: 1px solid #ddd;
+            }
+
+            header h1 {
+                margin: 0;
+                font-size: 24px;
+                color: #333;
+            }
+
+            main {
+                margin-top: 20px;
+            }
+
+            h1, h2 {
+                text-align: center;
+                color: #333;
+            }
+
+            p, ul {
+                font-size: 16px;
+                color: #555; /* Softer gray text */
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 20px 0;
+                background-color: #f8f9fa;
+                border-top: 1px solid #ddd;
+                margin-top: 40px;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: 14px;
+                color: #777;
+            }
+
+            @media (max-width: 768px) {
+                .content {
+                    width: 90%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>{{ site.title }}</h1>
+        </header>
+
+        <main>
+            <div class="content">
+                {{ content }}
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+        </footer>
+    </body>
 </html>

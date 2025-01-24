@@ -11,7 +11,7 @@ title: Home
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
         <style>
-            /* Minimalist theme with white background */
+            /* Minimalist global styles */
             body {
                 font-family: "Arial", sans-serif;
                 line-height: 1.6;
@@ -21,12 +21,12 @@ title: Home
                 color: #333; /* Dark text for readability */
             }
 
-            .container {
+            .content {
                 width: 80%;
                 max-width: 800px;
                 margin: 50px auto;
                 padding: 20px;
-                background-color: #ffffff; /* White container background */
+                background-color: #ffffff; /* White content background */
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 border-radius: 8px;
             }
@@ -52,38 +52,38 @@ title: Home
             }
 
             strong {
-                color: #333; /* Make bold text stand out */
+                color: #333; /* Bold text color */
             }
 
             @media (max-width: 768px) {
-                .container {
+                .content {
                     width: 90%;
                 }
             }
         </style>
     </head>
 <body>
-  <div class="container">
-    <h1>About Me</h1>
-    <p>Welcome to my personal website!</p>
-    <section class="bio">
-        <p>
-            I’m Harvey, and I love working with data, building models, and solving complex problems.  
-            I enjoy analyzing financial trends, coding, and learning about the latest in quantitative trading and risk management.
-        </p>
-        <p>
-            Feel free to explore my blogs for insights and projects, or check out my resume to see my professional experience.
-        </p>
-    </section>
+    <div class="content">
+        <h1>About Me</h1>
+        <p>Welcome to my personal website!</p>
+        <section class="bio">
+            <p>
+                I’m Harvey, and I love working with data, building models, and solving complex problems.  
+                I enjoy analyzing financial trends, coding, and learning about the latest in quantitative trading and risk management.
+            </p>
+            <p>
+                Feel free to explore my blogs for insights and projects, or check out my resume to see my professional experience.
+            </p>
+        </section>
 
-    <section class="achievements">
-        <h2>Achievements & Certifications</h2>
-        <ul>
-            <li><strong>CFA Level 1</strong> - Passed the Chartered Financial Analyst Level 1 exam in 2012.</li>
-            <li><strong>FRM Part 1</strong> - Passed the Financial Risk Manager Part 1 exam in 2024. Taking Part 2 exam in 2025.</li>
-            <li><strong>Google Advanced Data Analytics</strong> - Completed certification in data analytics from Google in 2025.</li>
-        </ul>
-    </section>
-  </div>
+        <section class="achievements">
+            <h2>Achievements & Certifications</h2>
+            <ul>
+                <li><strong>CFA Level 1</strong> - Passed the Chartered Financial Analyst Level 1 exam in 2012.</li>
+                <li><strong>FRM Part 1</strong> - Passed the Financial Risk Manager Part 1 exam in 2024. Taking Part 2 exam in 2025.</li>
+                <li><strong>Google Advanced Data Analytics</strong> - Completed certification in data analytics from Google in 2025.</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>

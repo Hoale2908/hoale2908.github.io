@@ -16,6 +16,25 @@
                 color: #333; /* Dark text for readability */
             }
 
+            .nav-bar {
+                background-color: #f8f9fa; /* Light background for the nav bar */
+                padding: 10px 20px;
+                text-align: center;
+                border-bottom: 1px solid #ddd;
+            }
+
+            .nav-bar a {
+                text-decoration: none;
+                color: #333;
+                margin: 0 15px;
+                font-size: 18px;
+            }
+
+            .nav-bar a:hover {
+                text-decoration: underline;
+                color: #007bff;
+            }
+
             .content {
                 width: 80%;
                 max-width: 800px;
@@ -77,14 +96,51 @@
                 color: #777;
             }
 
+            .social-links {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                gap: 15px; /* Space between social icons */
+            }
+
+            .social-links a {
+                text-decoration: none;
+                color: #333;
+                font-size: 18px;
+            }
+
+            .social-links a img {
+                width: 24px;
+                height: 24px;
+                object-fit: contain;
+                transition: transform 0.2s ease;
+            }
+
+            .social-links a:hover img {
+                transform: scale(1.1); /* Slight zoom effect on hover */
+            }
+
             @media (max-width: 768px) {
                 .content {
                     width: 90%;
+                }
+
+                .nav-bar a {
+                    margin: 0 10px;
+                    font-size: 16px;
                 }
             }
         </style>
     </head>
     <body>
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/projects' | relative_url }}">Projects</a>
+            <a href="{{ '/posts' | relative_url }}">Posts</a>
+            <a href="{{ '/resume' | relative_url }}">Resume</a>
+        </div>
+
         <header>
             <h1>{{ site.title }}</h1>
         </header>
@@ -98,19 +154,19 @@
 
         <footer>
             <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-            
+
             <!-- Social Media Links -->
             <div class="social-links">
-              <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-                  <img src="/assets/linkedin.png" alt="LinkedIn"> LinkedIn
-              </a>
-              <a href="https://github.com/yourprofile" target="_blank">
-                  <img src="/assets/github.png" alt="GitHub"> GitHub
-              </a>
-              <a href="https://twitter.com/yourprofile" target="_blank">
-                  <img src="/assets/twitter.png" alt="Twitter"> Twitter
-              </a>
-          </div>
+                <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
+                    <img src="/assets/icons/" alt="LinkedIn"> LinkedIn
+                </a>
+                <a href="https://www.github.com/Hoale2908" target="_blank">
+                    <img src="/assets/icons/github.png" alt="GitHub"> GitHub
+                </a>
+                <a href="https://www.kaggle.com/hoale2908" target="_blank">
+                    <img src="/assets/icons/kaggle.png" alt="Kaggle"> Kaggle
+                </a>
+            </div>
         </footer>
     </body>
 </html>

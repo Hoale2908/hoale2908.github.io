@@ -11,9 +11,10 @@
   <header>
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/portfolio.html' | relative_url }}">Portfolio</a>
       <a href="{{ '/posts.html' | relative_url }}">Posts</a>
       <a href="{{ '/resume.html' | relative_url }}">Resume</a>
-      <a href="{{ '/contact.html' | relative_url }}">Contact</a>
+      
     </nav>
   </header>
 
@@ -22,7 +23,23 @@
   </div>
 
   <footer>
-    <p>&copy; 2025 Harvey Le's Personal Website. All rights reserved.</p>
+    <div class="footer-container">
+      <p>&copy; 2025 Harvey Le's Personal Website. All rights reserved.</p>
+      <div class="contact-details">
+        <p>Email: <a href="mailto:hoa.letp@gmail.com">hoa.letp@gmail.com</a></p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
+            <img src="assets/icons/linkedin.png" alt="LinkedIn">
+          </a>
+          <a href="https://github.com/Hoale2908" target="_blank">
+            <img src="assets/icons/github.png" alt="GitHub">
+          </a>
+          <a href="https://www.kaggle.com/hoale2908" target="_blank">
+            <img src="assets/icons/kaggle.png" alt="Kaggle">
+          </a>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>

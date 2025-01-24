@@ -6,21 +6,6 @@ title: Posts
 <div class="container">
   <h1>Blog Posts</h1>
 
-  <!-- Featured Post -->
-  <section>
-    <h2>Featured Post</h2>
-    {% assign featured_post = site.posts | first %}
-    {% if featured_post %}
-    <div class="featured-post">
-      <h3><a href="{{ featured_post.url | relative_url }}">{{ featured_post.title }}</a></h3>
-      <p>{{ featured_post.excerpt | strip_html | truncate: 150 }}</p>
-      <span>Published on {{ featured_post.date | date: "%B %d, %Y" }}</span>
-    </div>
-    {% else %}
-    <p>No featured post available.</p>
-    {% endif %}
-  </section>
-
   <!-- Most Recent Posts -->
   <section>
     <h2>Recent Posts</h2>

@@ -10,9 +10,59 @@ title: Home
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+        <style>
+            /* Minimalist theme with white background */
+            body {
+                font-family: "Arial", sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff; /* White background */
+                color: #333; /* Dark text for readability */
+            }
+
+            .container {
+                width: 80%;
+                max-width: 800px;
+                margin: 50px auto;
+                padding: 20px;
+                background-color: #ffffff; /* White container background */
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                border-radius: 8px;
+            }
+
+            h1, h2 {
+                color: #333;
+                text-align: center;
+            }
+
+            p, ul {
+                font-size: 16px;
+                color: #555; /* Softer gray text */
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+
+            strong {
+                color: #333; /* Make bold text stand out */
+            }
+
+            @media (max-width: 768px) {
+                .container {
+                    width: 90%;
+                }
+            }
+        </style>
     </head>
 <body>
-
   <div class="container">
     <h1>About Me</h1>
     <p>Welcome to my personal website!</p>
@@ -33,21 +83,6 @@ title: Home
             <li><strong>FRM Part 1</strong> - Passed the Financial Risk Manager Part 1 exam in 2024. Taking Part 2 exam in 2025.</li>
             <li><strong>Google Advanced Data Analytics</strong> - Completed certification in data analytics from Google in 2025.</li>
         </ul>
-    </section>
-
-    <section class="social-links">
-        <h2>Connect with Me</h2>
-        <div>
-            <a href="https://www.linkedin.com/in/harvey-profile" target="_blank">
-                <img src="/assets/icons/linkedin.png" alt="LinkedIn Icon"> LinkedIn
-            </a>
-            <a href="https://github.com/harvey-profile" target="_blank">
-                <img src="/assets/icons/github.png" alt="GitHub Icon"> GitHub
-            </a>
-            <a href="mailto:harvey@example.com">
-                <img src="/assets/icons/email.png" alt="Email Icon"> Email
-            </a>
-        </div>
     </section>
   </div>
 </body>

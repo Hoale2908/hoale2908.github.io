@@ -3,6 +3,8 @@ layout: post
 title: "Forecasting Sticker Sales: EDA & Preprocessing with Time Series"
 date: 2025-01-27
 tags: [python, data analysis, kaggle, time series,]
+images:
+  - assets/img/kaggle-forecasting-sticker-sales.png
 ---
 
 In this blog post, I explore how to forecast sticker sales using exploratory data analysis and preprocessing techniques. 

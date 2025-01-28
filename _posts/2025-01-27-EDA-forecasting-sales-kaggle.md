@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Forecasting Sticker Sales: EDA & Preprocessing"
+date: 2025-01-27
+tags: [python, data analysis,]
+---
 # Forecasting Sticker Sales: EDA & Preprocessing
 
 In this blog post, I explore how to forecast sticker sales using exploratory data analysis and preprocessing techniques. Below is the Kaggle notebook embedded for a detailed walkthrough:

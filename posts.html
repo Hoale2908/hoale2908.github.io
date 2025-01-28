@@ -9,16 +9,7 @@ title: Posts
   <!-- Most Recent Posts -->
   <section>
     <h2>Recent Posts</h2>
-    <ul>
-      {% for post in site.posts limit:5 %}
-      <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <span> - {{ post.date | date: "%B %d, %Y" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
-    <p><a href="/all-posts.html">View All Posts</a></p>
-
+    
     <ul style="list-style: none; padding: 0;">
       {% for post in site.posts %}
       <li style="display: flex; align-items: center; margin-bottom: 20px;">
@@ -41,6 +32,9 @@ title: Posts
       </li>
       {% endfor %}
     </ul>
+
+    <p><a href="/all-posts.html">View All Posts</a></p>
+
   </section>
 
   <!-- Browse by Categories -->

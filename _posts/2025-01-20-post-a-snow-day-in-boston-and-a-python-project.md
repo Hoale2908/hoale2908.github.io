@@ -36,7 +36,7 @@ Here's some interesting insights:
 The full analysis with code can be found [here](https://github.com/Hoale2908/MA_Weather/tree/main).
 
 
-## What did I learn in term of data analysis?
+## What did I learn through this project?
 
 ### Find data sources and compiling data
 

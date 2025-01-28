@@ -7,9 +7,9 @@ images:
   - assets/img/kaggle-forecasting-sticker-sales.png
 ---
 
-In this blog post, I explore how to forecast sticker sales using exploratory data analysis and preprocessing techniques. 
+Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into `train` and `test` sets with 230130 and 98550 entries, respectively, for the sales of the 5 types of Kaggle stickers at three stores in each of the 6 countries.
 
-Below is the Kaggle notebook embedded for a detailed walkthrough:
+In this notebook, I explore how to use exploratory data analysis and preprocessing techniques to prepare data for modeling. Model developmet and valuation is discussed in another post. Below is the Kaggle notebook embedded for a detailed walkthrough:
 
 <div class="responsive-iframe">
   <iframe 
@@ -35,12 +35,24 @@ Below is the Kaggle notebook embedded for a detailed walkthrough:
   }
 </style>
 
-## What did I learn
-
-### Working with Time Series
+## Working with Time Series
 
 This is the first time I process a dataset with time series so indeeds I had to find a book to learn about the necessary libraries and methods, common approaches for data cleaning and data transformation. [This book]() was extremely helpful in providing me with these foundations. 
 
-Working with date and time using the <code>datetime</code> library. Such a powerful library to convert data to date and/or time; create new data such as quarter, week of year, etc; compute moving average; and so on.
+- <code>datetime</code> is such a powerful library to convert string to date and/or time; create new data by decomposing/composing date into quarter, month, week, week of year, day of week, etc; compute moving average; and so on.
+- There is usually trends or seasonality in time series, so we can't simply drop missing values or impute them with mean or median.
+- Imputation of time series data need to take into account the direction in which data is used.
+
+## Finding external data
+
+Sales cannot increase or decrease by themselves or by time passing by; there must be a reason behind it. That means we can't based only on `date` to forecast. Potential reasons could be location and time. Location in this context is the difference in economics, or demand in each country which may correlated with a country's GDP or CPI. As such, I tried to find this information to improve the model. 
+
+The GDP and CPI data that I could find from another dataset on Kaggle was not very helpful. Some products, and/or stores, and/or countries show correlation with either one of the two indices, but it is not consistent. Fortunately, another Kaggler finally found another dataset with GDP of which the sticker sales show strong correlation with. I haven't updated my notebook with this information yet.
+
+## Creating pipeline and function
+
+Throughout my project, I realized that I would have to performed the same tasks at least twice: once for the train set, and once for the test set. It therefore makes sense to create functions for these repetitive tasks. 
+
+
 
  

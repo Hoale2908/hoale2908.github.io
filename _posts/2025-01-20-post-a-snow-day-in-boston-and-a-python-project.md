@@ -3,6 +3,8 @@ layout: post
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-20
 tags: [python, data analysis,]
+images:
+- assets/img/boston-in-snow.jpg
 ---
 
 It was snowing here in Boston on a long holiday weekend as it usually does every winter. But yesterday there was a snowstorm coming. I canceled my plan to go to the Boston Public Library because I didn't want to be trapped outside or on the problematic subway during such condition. 

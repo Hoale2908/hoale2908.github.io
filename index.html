@@ -2,18 +2,23 @@
 layout: default
 title: Home
 ---
-
-<h1>About Me</h1>
-<p>Welcome to my personal website!</p>
-
-<section class="bio">
-    <p>
-        I’m Harvey, and I love working with data, building models, and solving complex problems.  
-        I enjoy analyzing financial trends, coding, and learning about the latest in quantitative trading and risk management.
-    </p>
-    <p>
-        Feel free to explore my blogs for insights and projects, or check out my resume to see my professional experience.
-    </p>
+<!-- Introduction Section -->
+<section class="introduction">
+  <div class="intro-text">
+      <h1>Hello, I'm Harvey!</h1>
+      <p>
+          I’m a data enthusiast passionate about solving complex problems, analyzing financial trends, and exploring new areas of quantitative finance and machine learning.  
+          I specialize in data analysis, financial modeling, and risk management.
+      </p>
+      
+      <!-- Call to Action (CTA) Button -->
+      <a href="{{ '/portfolio' | relative_url }} class="cta-button">View my Portfolio</a> <!-- Link to Portfolio Section -->
+  </div>
+  
+  <!-- Professional Picture (Optional) -->
+  <div class="intro-image">
+      <img src="/assets/img/profile-pic.jpg" alt="Harvey's Photo" class="profile-img"> <!-- Replace with your image path -->
+  </div>
 </section>
 
 <section class="achievements">

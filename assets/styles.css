@@ -274,7 +274,7 @@ li img {
   height: 50px;
   object-fit: cover;
   margin-right: 15px;
-  border-radius: 8px;
+  border-radius: 50%;
 }
 
 li a {
@@ -286,4 +286,10 @@ li a {
 
 li a:hover {
   color: #007bff;
+}
+
+li p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
 }

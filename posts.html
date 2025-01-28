@@ -18,6 +18,29 @@ title: Posts
       {% endfor %}
     </ul>
     <p><a href="/all-posts.html">View All Posts</a></p>
+
+    <ul style="list-style: none; padding: 0;">
+      {% for post in site.posts %}
+      <li style="display: flex; align-items: center; margin-bottom: 20px;">
+        <!-- Random Image (or default image if not available) -->
+        {% assign random_image = post.images | sample %}
+        <img src="{{ random_image | default: '/assets/images/default-post-image.jpg' }}" 
+             alt="Post Image" 
+             style="width: 50px; height: 50px; object-fit: cover; margin-right: 15px; border-radius: 50%;">
+    
+        <!-- Post Title and Date -->
+        <div>
+          <a href="{{ post.url | relative_url }}" 
+             style="text-decoration: none; color: #333; font-size: 18px; font-weight: bold;">
+            {{ post.title }}
+          </a>
+          <p style="margin: 5px 0 0; font-size: 14px; color: #555;">
+            {{ post.date | date: "%B %d, %Y" }}
+          </p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
   </section>
 
   <!-- Browse by Categories -->
@@ -51,15 +74,3 @@ title: Posts
   </section>
 </div>
 
-<!-- Show random image -->
-<ul>
-  {% for post in site.posts %}
-  <li style="display: flex; align-items: center; margin-bottom: 20px;">
-    {% assign random_image = post.images | sample %}
-    <img src="{{ random_image }}" alt="Post Image" style="width: 50px; height: 50px; object-fit: cover; margin-right: 15px; border-radius: 8px;">
-    <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #333; font-size: 18px;">
-      {{ post.title }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>

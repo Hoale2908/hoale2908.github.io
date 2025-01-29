@@ -183,6 +183,12 @@ main {
     }
 }
 
+.achievements {
+  margin: 40px auto;
+  max-width: 800px;
+  text-align: left;
+}
+
 .skills, .tools-technologies {
   margin: 40px auto;
   max-width: 800px;
@@ -192,6 +198,7 @@ main {
 .skills ul {
   list-style-type: none;
   padding: 0;
+  text-align: center;
 }
 
 .skills ul li {

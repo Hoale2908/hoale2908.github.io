@@ -199,10 +199,10 @@ main {
 }
 
 .project {
-  background-color: #2a2a3d;
+  background-color: #f4f4f4;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(47, 43, 43, 0.2);
   flex: 1 1 30%; /* Ensures projects are horizontally aligned */
   gap: 20px;
   min-width: 250px;
@@ -221,7 +221,7 @@ main {
 }
 
 .project p {
-  color: #bdbdbd;
+  color: #4c4c4c;
   margin: 5px 0 0;
 }
 

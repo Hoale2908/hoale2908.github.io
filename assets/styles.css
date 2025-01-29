@@ -186,7 +186,7 @@ main {
 .achievements {
   margin: 40px auto;
   max-width: 800px;
-  text-align: left;
+  text-align: center;
 }
 
 .skills, .tools-technologies {

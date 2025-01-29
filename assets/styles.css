@@ -92,23 +92,6 @@ main {
   color: #bdbdbd;
 }
 
-/* Buttons */
-button, .button {
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  border-radius: 6px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-button:hover, .button:hover {
-  background-color: #0066d3;
-  transform: scale(1.05);
-}
-
 /* Social Links */
 .social-links {
   display: flex;
@@ -286,6 +269,7 @@ li a {
 
 li a:hover {
   color: #007bff;
+  text-decoration: underline;
 }
 
 li p {

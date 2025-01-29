@@ -196,6 +196,9 @@ main {
   grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
   gap: 30px;
   margin-top: 40px;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .project {

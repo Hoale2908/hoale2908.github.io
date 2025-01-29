@@ -1,13 +1,13 @@
-/* Introduction Section - Adjusting Layout */
+/* Introduction Section - Centered & Balanced */
 .introduction {
   display: flex;
   align-items: center;
-  justify-content: center;
-  max-width: 800px;
+  justify-content: space-between;
+  max-width: 900px;
   margin: auto;
-  gap: 30px;
-  padding: 40px 20px;
+  padding: 50px 20px;
   text-align: left;
+  gap: 40px;
 }
 
 /* Text Block */
@@ -15,15 +15,15 @@
   max-width: 55%;
 }
 
-/* Profile Image */
+/* Profile Image - No Skewing, Slightly Rounded */
 .profile-img {
   width: 180px;
-  height: 180px;
-  border-radius: 50%;
+  height: auto; /* Ensures aspect ratio is maintained */
+  border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Call-to-Action Button - More Padding & Contrast */
+/* Call-to-Action Button - Improved Hover Effect */
 .cta-button {
   display: inline-block;
   padding: 14px 22px;
@@ -40,32 +40,45 @@
   transform: translateY(-2px);
 }
 
-/* Featured Projects - Better Spacing */
+/* Featured Projects - Use Full Width */
 .featured-projects {
   max-width: 900px;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-between;
 }
 
-/* Adjust Project Card Spacing */
+/* Project Card */
 .project {
   display: flex;
   align-items: center;
-  gap: 15px;
   background-color: #2a2a3d;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex: 1 1 calc(50% - 10px); /* Ensures two per row */
+  gap: 15px;
+  min-width: 300px;
 }
 
-/* Project Images - Rounded & Consistent */
+/* Project Images - Small but Clear */
 .project img {
   width: 80px;
   height: 80px;
   border-radius: 8px;
   object-fit: cover;
+}
+
+/* Project Text */
+.project h3 {
+  margin: 0;
+}
+
+.project p {
+  color: #bdbdbd;
+  margin: 5px 0 0;
 }
 
 /* Mobile Responsiveness */
@@ -81,6 +94,14 @@
 
   .profile-img {
     width: 140px;
-    height: 140px;
+    height: auto;
+  }
+
+  .featured-projects {
+    flex-direction: column;
+  }
+
+  .project {
+    flex: 1 1 100%; /* Make projects stack */
   }
 }

@@ -53,14 +53,14 @@ footer {
   margin-top: 40px;
 }
 
-footer a {
-  color: #10a37f;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 footer a:hover {
   text-decoration: underline;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Main Content */
@@ -122,13 +122,13 @@ main {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 12px 20px;
     margin: auto;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 8px;
+    font-size: 18px;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
@@ -172,26 +172,23 @@ main {
 }
 
 /* Featured Projects */
-.featured-projects .project-list {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.project {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  background: #f9f9f9;
-  padding: 10px;
-  border-radius: 8px;
+.featured-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .project img {
-  width: 50px;
-  height: 50px;
+  width: 100%;
   border-radius: 8px;
+  transition: transform 0.3s ease;
 }
+
+.project:hover img {
+  transform: scale(1.05);
+}
+
+/* Achievements */
 
 .achievements details {
   background: #f9f9f9;

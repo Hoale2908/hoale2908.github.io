@@ -129,7 +129,7 @@ main {
 }
 
 .intro-text {
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .intro-text h1 {
@@ -145,7 +145,7 @@ main {
 
 .cta-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: auto 20px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
@@ -189,22 +189,10 @@ main {
   text-align: center;
 }
 
-.skills, .tools-technologies {
+.tools-technologies {
   margin: 40px auto;
   max-width: 800px;
   text-align: center;
-}
-
-.skills ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-}
-
-.skills ul li {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 10px;
 }
 
 .tools-list {

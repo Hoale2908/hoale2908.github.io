@@ -190,49 +190,42 @@ main {
   background-color: #007bff;
 }
 
-/* Featured Projects - Horizontally Stacked */
+/* Featured Projects - Two Columns */
 .featured-projects {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
   gap: 30px;
   margin-top: 40px;
 }
 
 .project {
-  background-color: #f4f4f4;
+  background-color: #d1d1d1;
   padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(47, 43, 43, 0.2);
-  flex: 1 1 30%; /* Ensures projects are horizontally aligned */
-  gap: 20px;
-  min-width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
   border-radius: 8px;
   object-fit: cover;
 }
 
 .project h3 {
   margin: 0;
-  color: #eaeaea;
+  color: #10a37f;
 }
 
 .project p {
-  color: #4c4c4c;
+  color: #bdbdbd;
   margin: 5px 0 0;
 }
 
 /* Mobile Responsiveness for Featured Projects */
 @media (max-width: 768px) {
   .featured-projects {
-    flex-direction: column;
+    grid-template-columns: 1fr; /* Stacks in one column on smaller screens */
     gap: 20px;
-  }
-
-  .project {
-    flex: 1 1 100%; /* Stacks on smaller screens */
   }
 }

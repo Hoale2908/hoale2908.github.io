@@ -2,72 +2,63 @@
 layout: default
 title: Home
 ---
+
 <!-- Introduction Section -->
 <section class="introduction">
   <div class="intro-text">
       <h1>Hello, I'm Hoa!</h1>
       <p>
-          I’m a data enthusiast passionate about solving complex problems, analyzing financial trends, and exploring new areas of quantitative finance and machine learning.  
-          I specialize in data analysis and risk management, focusing on credit risk modeling.
+          Data enthusiast specializing in credit risk modeling and financial data analysis. Passionate about leveraging machine learning in finance.
       </p>
-      
-      <!-- Call to Action (CTA) Button -->
       <a href="{{ '/portfolio' | relative_url }}" class="cta-button">View my Portfolio</a> 
   </div>
-  
-  <!-- Professional Picture -->
   <div class="intro-image">
       <img src="/assets/img/profile-pic.jpg" alt="Harvey's Photo" class="profile-img"> 
   </div>
 </section>
 
 <!-- Featured Projects -->
-<h2>Featured Projects</h2>
-<div class="featured-projects">
-    <div class="project">
-        <img src="/assets/images/project1.png" alt="Project 1">
-        <div>
-            <h3><a href="/portfolio/project1">Forecasting Sticker Sales: EDA & Preprocessing with Time Series</a></h3>
-            <p>A machine learning model to forecast sales.</p>
+<section class="featured-projects">
+    <h2>Featured Projects</h2>
+    <div class="project-list">
+        <div class="project">
+            <img src="/assets/images/project1.png" alt="Project 1">
+            <div>
+                <h3><a href="/portfolio/project1">Forecasting Sticker Sales</a></h3>
+                <p>Time series forecasting for sales trends.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="/assets/images/project2.png" alt="Project 2">
+            <div>
+                <h3><a href="/portfolio/project2">Mortgage Loan Default Analysis</a></h3>
+                <p>Data-driven modeling for risk assessment.</p>
+            </div>
         </div>
     </div>
-
-    <div class="project">
-        <img src="/assets/images/project2.png" alt="Project 2">
-        <div>
-            <h3><a href="/portfolio/project2">Mortgage Loan Default Analysis</a></h3>
-            <p>Data preprocessing and modeling for mortgage default prediction.</p>
-        </div>
-    </div>
-</div>
-
-<section class="achievements">
-    <h2>Achievements & Certifications</h2>
-    <ul>
-        <li><strong>CFA Level 1</strong> - Passed the Chartered Financial Analyst Level 1 exam in 2012.</li>
-        <li><strong>FRM Part 1</strong> - Passed the Financial Risk Manager Part 1 exam in 2024. Taking Part 2 exam in 2025.</li>
-        <li><strong>Google Advanced Data Analytics</strong> - Completed certification in data analytics from Google in 2025.</li>
-    </ul>
 </section>
 
+<!-- Collapsible Achievements -->
+<section class="achievements">
+    <h2>Achievements & Certifications</h2>
+    <details>
+      <summary>View Certifications</summary>
+      <ul>
+          <li><strong>CFA Level 1</strong> - Passed in 2012.</li>
+          <li><strong>FRM Part 1</strong> - Passed in 2024, taking Part 2 in 2025.</li>
+          <li><strong>Google Advanced Data Analytics</strong> - Certified in 2025.</li>
+      </ul>
+    </details>
+</section>
+
+<!-- Tools & Technologies -->
 <section class="tools-technologies">
   <h2>Tools & Technologies</h2>
   <div class="tools-list">
-      <div class="tool">
-          <img src="/assets/icons/python.png" alt="Python" class="icon">
-          <span>Python</span>
-      </div>
-      <div class="tool">
-          <img src="/assets/icons/sql.png" alt="SQL" class="icon">
-          <span>SQL</span>
-      </div>
-      <div class="tool">
-          <img src="/assets/icons/excel.png" alt="Excel" class="icon">
-          <span>Excel</span>
-      </div>
-      <div class="tool">
-          <img src="/assets/icons/tableau.png" alt="Tableau" class="icon">
-          <span>Tableau</span>
-      </div>
+      <div class="tool"><img src="/assets/icons/python.png" alt="Python"><span>Python</span></div>
+      <div class="tool"><img src="/assets/icons/sql.png" alt="SQL"><span>SQL</span></div>
+      <div class="tool"><img src="/assets/icons/excel.png" alt="Excel"><span>Excel</span></div>
+      <div class="tool"><img src="/assets/icons/tableau.png" alt="Tableau"><span>Tableau</span></div>
   </div>
 </section>

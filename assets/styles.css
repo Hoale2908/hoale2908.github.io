@@ -197,14 +197,14 @@ main {
   gap: 30px;
   margin-top: 40px;
   width: 100%;
-  max-width: 1000px; /* Optional: Adjust based on your design */
+  max-width: 900px; /* Optional: Adjust based on your design */
   margin: 0 auto; /* Center the container */
   box-sizing: border-box; /* Include padding in width calculations */
 }
 
 /* Ensure Project Cards Don't Take Full Width */
 .project {
-  background-color: #2a2a3d;
+  background-color: #17715bb2;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

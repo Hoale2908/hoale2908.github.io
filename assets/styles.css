@@ -196,7 +196,7 @@ main {
   grid-template-columns: repeat(2, 1fr); /* Two equal columns */
   gap: 30px;
   margin-top: 40px;
-  width: 100%;
+  width: 90%;
   max-width: 900px; /* Optional: Adjust based on your design */
   margin: 0 auto; /* Center the container */
   box-sizing: border-box; /* Include padding in width calculations */
@@ -204,11 +204,11 @@ main {
 
 /* Ensure Project Cards Don't Take Full Width */
 .project {
-  background-color: #17715bb2;
+  background-color: #696969b2;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 90%;
 }
 
 /* Fix Project Images */

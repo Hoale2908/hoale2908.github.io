@@ -197,7 +197,7 @@ main {
   gap: 30px;
   margin-top: 40px;
   width: 90%;
-  max-width: 900px; /* Optional: Adjust based on your design */
+  max-width: 900px; /* Limit width */
   margin: 0 auto; /* Center the container */
   box-sizing: border-box; /* Include padding in width calculations */
 }
@@ -211,9 +211,14 @@ main {
   width: 90%;
 }
 
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
 /* Fix Project Images */
 .project img {
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;

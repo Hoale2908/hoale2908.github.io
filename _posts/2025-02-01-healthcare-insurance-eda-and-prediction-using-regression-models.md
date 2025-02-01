@@ -79,5 +79,4 @@ Through EDA, we learned that Age, Smoker and BMI are the three most influential 
 The quadratic polynomial model is the best among the three trained models. It is more powerful than the linear regression model because it takes into account the correlation between Smoker and BMI. Additionally, it is simpler and more cost-effective than the cubic model.
 
 Future improvements can be seen by using machine learning models, or by feature engineering.
-
 ___

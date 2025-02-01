@@ -37,7 +37,7 @@ To view the full notebook, [click here](https://github.com/Hoale2908/healthcare_
 
 ## Model Development and Evaluation
 
-### Linear Regression Model
+### 1. Linear Regression Model
 
 A linear regression model is fitted with Smoker, Age, and BMI. The intercept and coefficients are respectively:
 
@@ -48,25 +48,27 @@ In other words, it means:
 - For every one year older, one will have to pay $250 more.
 - For every one point of BMI higher, one will have to pay $304 more.
 
-This model is not very accurate because it can only explain 75% of the time, as illustrated by R^2 = 0.747. This could be because we have not account for the relationship among the independent variables, particularly between Smoker and BMI. As such, we can try fitting a quadratic regression model.
+This model is not very accurate because it can only explain 75% of the time, as illustrated by R<sup>2</sup> = 0.747. This could be because we have not account for the relationship among the independent variables, particularly between Smoker and BMI. As such, we can try fitting a quadratic regression model.
 
-### Quadratic Regression Model
+
+### 2. Quadratic Regression Model
 
 Using the same variables and data, our fitted model has:
 
 <img src="https://github.com/Hoale2908/healthcare_insurance/blob/main/quadratic%20model.png" class="post-image">
 
-As we can see, our model now has 9 coefficients. R^2 = 0.838 means that it has a higher accuracy compared to the linear regression model above.
+As we can see, our model now has 9 coefficients. R<sup>2</sup> = 0.838 means that it has a higher accuracy compared to the linear regression model above.
 
 We will continue with a cubit polynomial model as a way to improve model accuracy.
 
-### Cubic Regression Model
+
+### 3. Cubic Regression Model
 
 Similarly, we used the same independent variables for training purposes. Below are the intercept and coefficients:
 
 <img src="https://github.com/Hoale2908/healthcare_insurance/blob/main/cubic%20model.png" alt="cubic model" class="post-image">
 
-Using a cubic polynomial model only improved R^2 from 83.8% to 84.1% while it is costly to implement (in terms of computing resources) and harder to explain to non-technical stakeholders (19 coefficients), especially that it will exponentially increased with the number of independent variables.
+Using a cubic polynomial model only improved R<sup>2</sup> from 0.838 to 0.841 while it is more costly to implement and harder to explain to non-technical stakeholders (19 coefficients and will exponentially increase).
 
 Therefore, we will choose the Quadratic model as the final winner.
 
@@ -78,4 +80,4 @@ The quadratic polynomial model is the best among three trained models. Because t
 
 Future improvements can be seen by using machine learning models, or by feature engineering.
 
-Thank you for reading!
+___

@@ -53,18 +53,5 @@ title: Posts
     {% endfor %}
   </section>
 
-  <!-- Browse by Tags -->
-  <section>
-    <h2>Browse by Tags</h2>
-    <ul class="tags">
-      {% assign sorted_tags = site.tags | sort %}
-      {% for tag in sorted_tags %}
-      <li>
-        <a href="{{ '/tag/' | append: tag[0] | relative_url }}">{{ tag[0] | capitalize }}</a>
-        ({{ tag[1].size }})
-      </li>
-      {% endfor %}
-    </ul>
-  </section>
 </div>
 

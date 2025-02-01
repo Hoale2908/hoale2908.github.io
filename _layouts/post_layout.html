@@ -3,7 +3,6 @@ layout: default
 images:
   - assets/img/blogpost.png
 categories: [blog]
-tags:
 ---
 
 <article class="post-content">
@@ -29,15 +28,6 @@ tags:
     <button onclick="sharePost()">🔗 Share</button>
   </div>
 
-  <div class="post-tags">
-    <h3>Tags:</h3>
-    <ul>
-      {% for tag in page.tags %}
-        <li><a href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
-  
 </article>
 
 <script>

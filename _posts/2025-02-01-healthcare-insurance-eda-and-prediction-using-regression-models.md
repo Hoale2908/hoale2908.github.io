@@ -40,8 +40,8 @@ To view the full notebook, [click here](https://github.com/Hoale2908/healthcare_
 ### Linear Regression Model
 
 A linear regression model is fitted with Smoker, Age, and BMI. The intercept and coefficients are respectively:
-- Intercept: -10769.654425041617
-- Coefficients: [23702.26154321   250.1284211    304.13776941]
+
+![linear](assets/img/LR model.png)
 
 In other words, it means: 
 - A person who smokes will incur $23,702 higher cost compared to someone who does not smoke (with the same BMI, at the same age).
@@ -53,16 +53,7 @@ This model is not very accurate because it can only explain 75% of the time, as 
 ### Quadratic Regression Model
 
 Using the same variables and data, our fitted model has:
-- Intercept: -6044.03137971318
-- Coefficients: [-1.05745401e+04  
-                +6.60928705e+01  
-                +5.21729101e+02 
-                -1.05745401e+04
-                +1.95138161e+01  
-                +1.44168187e+03  
-                +1.78542459e+00  
-                +1.53447523e+00
-                -9.35711839e+00]
+![quadratc](assets/img/quadratic model.png)
 
 As we can see, our model now has 9 coefficients. 
 R^2 = 0.838 means that it has a higher accuracy compared to the linear regression model above. 
@@ -71,12 +62,7 @@ We will continue with a cubit polynomial model as a way to improve model accurac
 ### Cubic Regression Model
 
 Similarly, we used the same independent variables for training purposes. Below are the intercept and coefficients:
- - Intercept: 25609.667306455973
- - Coefficients: [-8.82017925e+03  1.44747747e+02 -2.69938606e+03 -8.82017925e+03
- -1.51725305e+01  9.31280521e+02  1.86820724e+00 -1.78902617e+00
-  9.34367872e+01 -8.82017925e+03 -1.51725305e+01  9.31280521e+02
- -2.29772160e+00  7.35459474e+00 -1.07627356e+01 -7.96756180e-03
-  4.11040424e-02 -4.27396058e-02 -1.00382747e+00]
+![cubic](assets/img/cubic model.png)
 
 With 19 coefficients, it's quite difficult for users to interpret. We improved the model's R^2 slightly to 0.841.
 

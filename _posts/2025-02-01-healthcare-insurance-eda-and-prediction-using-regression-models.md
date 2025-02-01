@@ -1,7 +1,7 @@
 ---
 layout: post_layout
 title: "Healthcare Insurance - EDA and Cost Prediction using Regression Models"
-date: 2025-02-02
+date: 2025-02-01
 tags: [python, data analysis, regression, scikit-learn]
 images:
   - assets/img/healthcare-cost.jpg
@@ -13,7 +13,7 @@ This notebook aims to find out how healthcare costs are driven by different vari
 
 The dataset contains demographic and health information and healthcare cost of 1,338 patients, including age, gender, BMI score, number of children, smoking status, and region (location).
 
-To view the full notebook, [click here](https://github.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/blob/main/code.ipynb).
+To view the full notebook, [click here](https://github.com/Hoale2908/healthcare_insurance/blob/main/health-insurance-eda.ipynb).
 
 ## Executive Summary  
  - Exploratory Data Analysis shows that Age, BMI, and Smoking status have impacts on healthcare cost (Charges).

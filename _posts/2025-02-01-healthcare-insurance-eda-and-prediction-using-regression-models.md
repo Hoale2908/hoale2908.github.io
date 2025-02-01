@@ -41,7 +41,7 @@ To view the full notebook, [click here](https://github.com/Hoale2908/healthcare_
 
 A linear regression model is fitted with Smoker, Age, and BMI. The intercept and coefficients are respectively:
 
-<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/LR%20model.png" alt="linear model" class="post-image">
+<img src="https://github.com/Hoale2908/healthcare_insurance/blob/main/LR%20model.png" alt="linear model" class="post-image">
 
 In other words, it means: 
 - A person who smokes will incur $23,702 higher cost compared to someone who does not smoke (with the same BMI, at the same age).
@@ -54,7 +54,7 @@ This model is not very accurate because it can only explain 75% of the time, as 
 
 Using the same variables and data, our fitted model has:
 
-<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/quadratic%20model.png" alt="quadratic model" class="post-image">
+<img src="https://github.com/Hoale2908/healthcare_insurance/blob/main/quadratic%20model.png" class="post-image">
 
 As we can see, our model now has 9 coefficients. R^2 = 0.838 means that it has a higher accuracy compared to the linear regression model above.
 
@@ -64,7 +64,7 @@ We will continue with a cubit polynomial model as a way to improve model accurac
 
 Similarly, we used the same independent variables for training purposes. Below are the intercept and coefficients:
 
-<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/cubic%20model.png" alt="cubic model" class="post-image">
+<img src="https://github.com/Hoale2908/healthcare_insurance/blob/main/cubic%20model.png" alt="cubic model" class="post-image">
 
 Using a cubic polynomial model only improved R^2 from 83.8% to 84.1% while it is costly to implement (in terms of computing resources) and harder to explain to non-technical stakeholders (19 coefficients), especially that it will exponentially increased with the number of independent variables.
 

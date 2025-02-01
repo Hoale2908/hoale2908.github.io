@@ -7,9 +7,9 @@ images:
   - assets/img/kaggle-forecasting-sticker-sales.png
 ---
 
-Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into `train` and `test` sets with 230130 and 98550 entries, respectively, for the sales of the 5 types of Kaggle stickers at three stores in each of the 6 countries.
+Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into *train* and *test* sets with 230,130 and 98,550 entries, respectively, featuring sales of the 5 different Kaggle stickers at three store chains over 6 countries.
 
-In this notebook, I explore how to use exploratory data analysis and preprocessing techniques to prepare data for modeling. Model developmet and valuation is discussed in another post. Below is the Kaggle notebook embedded for a detailed walkthrough:
+In this notebook, I explore how to use Exploratory Data Analysis and preprocessing techniques to prepare data for modeling. Model development and valuation is discussed in another post. Below is the Kaggle notebook embedded for a detailed walkthrough:
 
 <div class="responsive-iframe">
   <iframe 

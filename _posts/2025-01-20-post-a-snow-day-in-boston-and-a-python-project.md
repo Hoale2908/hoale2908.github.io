@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-20
 tags: [python, data analysis,]

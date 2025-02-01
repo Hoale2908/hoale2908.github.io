@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_layout
 title: "Forecasting Sticker Sales: EDA & Preprocessing with Time Series"
 date: 2025-01-27
 tags: [python, data analysis, kaggle, time series,]

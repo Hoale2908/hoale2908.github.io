@@ -30,18 +30,18 @@ To view the full notebook, [click here](https://github.com/Hoale2908/healthcare_
 - Location and gender do not significantly affect healthcare costs.
 - People with more children are mainly non-smokers. The causal relationship between the number of children and smoking status, or vice versa, cannot be determined through this dataset.
 
-![heatmap](https://www.kaggleusercontent.com/kf/220315349/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..x5iwbCXsePY2NSWay9FPWQ.CEuUpIazfDstwWgagDyk3jyRIzKNPDUbwA4JIIma-FL4fFcPmeLUobKTI1maDu92vI8doam7ZXINX-z1cwmsWIfxhLvCxZhbMqtCGrOTxeeMbbkIQX9YFay4sXJ7XrRDsDeXuwXb1OeTZAFeSS1AmYObUzl3A8ed4PrhRRfO30UXdzh8Y3NoDksLMpaMxLpxOPeCRg7Mt5am-F-QuFm6dGod4JeEKel5tuLdLEYi4gHMeBHY7KF-xcpW1to8WWWsS7xaud_UC4147HDp6R6iCeItAHWglC79OhK52hVDfJfU4usS6zLHgKBSkmDvtT-P64LMtOms-nB27cG2bELEEHo_qet1aKkgHzUBlqZNZE7sMCNIddniCRqnkytGPmIp5sMPQbf9OVhYE5zeGNbgZQ1W-Hxwk1nQYmQR5vz3AncZZ1Ct663Iu42RmaGtfyptXvV7jMviWie_uXyGIPDWxySA9pn_eb6Lsyx_UKEkvs3ke7IdTPzpDRPCN1Ic2gFDiHR3RHRr1LcRtQb5gZplaeMk1N2DG7PjH-9BV2WboX03_sYcE3L_OZu7D9bklTXFLJDlpKOOva-7DGP3U10TK9xdfSBxJtd7KaUt7o9csl3ITIsDOX9Oq5lWwi4gHpXD8hOI5IHR_NnToE59JaMIsiv6ow_lSsq5UrE8sgCvoGc.GG4IjMAvxJgr_z9MNgZ6Ag/__results___files/__results___16_0.png)
+<img src="https://www.kaggleusercontent.com/kf/220315349/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..x5iwbCXsePY2NSWay9FPWQ.CEuUpIazfDstwWgagDyk3jyRIzKNPDUbwA4JIIma-FL4fFcPmeLUobKTI1maDu92vI8doam7ZXINX-z1cwmsWIfxhLvCxZhbMqtCGrOTxeeMbbkIQX9YFay4sXJ7XrRDsDeXuwXb1OeTZAFeSS1AmYObUzl3A8ed4PrhRRfO30UXdzh8Y3NoDksLMpaMxLpxOPeCRg7Mt5am-F-QuFm6dGod4JeEKel5tuLdLEYi4gHMeBHY7KF-xcpW1to8WWWsS7xaud_UC4147HDp6R6iCeItAHWglC79OhK52hVDfJfU4usS6zLHgKBSkmDvtT-P64LMtOms-nB27cG2bELEEHo_qet1aKkgHzUBlqZNZE7sMCNIddniCRqnkytGPmIp5sMPQbf9OVhYE5zeGNbgZQ1W-Hxwk1nQYmQR5vz3AncZZ1Ct663Iu42RmaGtfyptXvV7jMviWie_uXyGIPDWxySA9pn_eb6Lsyx_UKEkvs3ke7IdTPzpDRPCN1Ic2gFDiHR3RHRr1LcRtQb5gZplaeMk1N2DG7PjH-9BV2WboX03_sYcE3L_OZu7D9bklTXFLJDlpKOOva-7DGP3U10TK9xdfSBxJtd7KaUt7o9csl3ITIsDOX9Oq5lWwi4gHpXD8hOI5IHR_NnToE59JaMIsiv6ow_lSsq5UrE8sgCvoGc.GG4IjMAvxJgr_z9MNgZ6Ag/__results___files/__results___16_0.png" alt="Healthcare Insurance heatmap" class="post-image">
 
-![chart](https://www.kaggleusercontent.com/kf/220315349/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..x5iwbCXsePY2NSWay9FPWQ.CEuUpIazfDstwWgagDyk3jyRIzKNPDUbwA4JIIma-FL4fFcPmeLUobKTI1maDu92vI8doam7ZXINX-z1cwmsWIfxhLvCxZhbMqtCGrOTxeeMbbkIQX9YFay4sXJ7XrRDsDeXuwXb1OeTZAFeSS1AmYObUzl3A8ed4PrhRRfO30UXdzh8Y3NoDksLMpaMxLpxOPeCRg7Mt5am-F-QuFm6dGod4JeEKel5tuLdLEYi4gHMeBHY7KF-xcpW1to8WWWsS7xaud_UC4147HDp6R6iCeItAHWglC79OhK52hVDfJfU4usS6zLHgKBSkmDvtT-P64LMtOms-nB27cG2bELEEHo_qet1aKkgHzUBlqZNZE7sMCNIddniCRqnkytGPmIp5sMPQbf9OVhYE5zeGNbgZQ1W-Hxwk1nQYmQR5vz3AncZZ1Ct663Iu42RmaGtfyptXvV7jMviWie_uXyGIPDWxySA9pn_eb6Lsyx_UKEkvs3ke7IdTPzpDRPCN1Ic2gFDiHR3RHRr1LcRtQb5gZplaeMk1N2DG7PjH-9BV2WboX03_sYcE3L_OZu7D9bklTXFLJDlpKOOva-7DGP3U10TK9xdfSBxJtd7KaUt7o9csl3ITIsDOX9Oq5lWwi4gHpXD8hOI5IHR_NnToE59JaMIsiv6ow_lSsq5UrE8sgCvoGc.GG4IjMAvxJgr_z9MNgZ6Ag/__results___files/__results___21_0.png)
+<img src="https://www.kaggleusercontent.com/kf/220315349/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..x5iwbCXsePY2NSWay9FPWQ.CEuUpIazfDstwWgagDyk3jyRIzKNPDUbwA4JIIma-FL4fFcPmeLUobKTI1maDu92vI8doam7ZXINX-z1cwmsWIfxhLvCxZhbMqtCGrOTxeeMbbkIQX9YFay4sXJ7XrRDsDeXuwXb1OeTZAFeSS1AmYObUzl3A8ed4PrhRRfO30UXdzh8Y3NoDksLMpaMxLpxOPeCRg7Mt5am-F-QuFm6dGod4JeEKel5tuLdLEYi4gHMeBHY7KF-xcpW1to8WWWsS7xaud_UC4147HDp6R6iCeItAHWglC79OhK52hVDfJfU4usS6zLHgKBSkmDvtT-P64LMtOms-nB27cG2bELEEHo_qet1aKkgHzUBlqZNZE7sMCNIddniCRqnkytGPmIp5sMPQbf9OVhYE5zeGNbgZQ1W-Hxwk1nQYmQR5vz3AncZZ1Ct663Iu42RmaGtfyptXvV7jMviWie_uXyGIPDWxySA9pn_eb6Lsyx_UKEkvs3ke7IdTPzpDRPCN1Ic2gFDiHR3RHRr1LcRtQb5gZplaeMk1N2DG7PjH-9BV2WboX03_sYcE3L_OZu7D9bklTXFLJDlpKOOva-7DGP3U10TK9xdfSBxJtd7KaUt7o9csl3ITIsDOX9Oq5lWwi4gHpXD8hOI5IHR_NnToE59JaMIsiv6ow_lSsq5UrE8sgCvoGc.GG4IjMAvxJgr_z9MNgZ6Ag/__results___files/__results___21_0.png" alt="Healthcare Insurance chart" class="post-image">
 
 
-## Model development and evaluation
+## Model Development and Evaluation
 
 ### Linear Regression Model
 
 A linear regression model is fitted with Smoker, Age, and BMI. The intercept and coefficients are respectively:
 
-![linear](assets/img/LR model.png)
+<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/LR%20model.png" alt="linear model" class="post-image">
 
 In other words, it means: 
 - A person who smokes will incur $23,702 higher cost compared to someone who does not smoke (with the same BMI, at the same age).
@@ -53,20 +53,20 @@ This model is not very accurate because it can only explain 75% of the time, as 
 ### Quadratic Regression Model
 
 Using the same variables and data, our fitted model has:
-![quadratc](assets/img/quadratic model.png)
 
-As we can see, our model now has 9 coefficients. 
-R^2 = 0.838 means that it has a higher accuracy compared to the linear regression model above. 
+<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/quadratic%20model.png" alt="quadratic model" class="post-image">
+
+As we can see, our model now has 9 coefficients. R^2 = 0.838 means that it has a higher accuracy compared to the linear regression model above.
+
 We will continue with a cubit polynomial model as a way to improve model accuracy.
 
 ### Cubic Regression Model
 
 Similarly, we used the same independent variables for training purposes. Below are the intercept and coefficients:
-![cubic](assets/img/cubic model.png)
 
-With 19 coefficients, it's quite difficult for users to interpret. We improved the model's R^2 slightly to 0.841.
+<img src="https://github.com/Hoale2908/hoale2908.github.io/blob/main/assets/img/cubic%20model.png" alt="cubic model" class="post-image">
 
-Using a cubic polynomial model only improved R^2 from 83.8% to 84.1% while it is costly to implement (in terms of computing resources) and harder to explain to non-technical stakeholders, especially when the number of independent variables would be more than 3.
+Using a cubic polynomial model only improved R^2 from 83.8% to 84.1% while it is costly to implement (in terms of computing resources) and harder to explain to non-technical stakeholders (19 coefficients), especially that it will exponentially increased with the number of independent variables.
 
 Therefore, we will choose the Quadratic model as the final winner.
 

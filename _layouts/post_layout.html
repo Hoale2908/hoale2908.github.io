@@ -27,6 +27,24 @@ categories: [blog]
     <!-- Share Button -->
     <button onclick="sharePost()">🔗 Share</button>
   </div>
+
+  <div class="post-tags">
+    <h3>Tags:</h3>
+    <ul>
+      {% for tag in page.tags %}
+        <li><a href="{{ site.baseurl }}/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <h3>Categories:</h3>
+
+    <ul>
+      {% for category in page.categories %}
+        <li><a href="{{ site.baseurl }}/categories/{{ category | slugify }}">{{ category }}</a></li>
+      {% endfor %}
+    </ul>
+
+  </div>
 </article>
 
 <script>

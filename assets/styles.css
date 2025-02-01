@@ -219,7 +219,7 @@ main {
 /* Fix Project Images */
 .project img {
   width: 100%;
-  max-width: 350px;
+  max-width: 400px;
   height: 180px;
   border-radius: 8px;
   object-fit: cover;

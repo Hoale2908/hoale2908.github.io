@@ -3,7 +3,7 @@ layout: post_layout
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-20
 tags: [python, ]
-categories: [EDA for Fun]
+categories: [Fun EDA]
 images:
 - assets/img/boston-in-snow.jpg
 ---
@@ -57,11 +57,6 @@ Moreover, grouping events into larger groups were also helpful for visualization
 
 It is a common mistake to use complex charts because they look "fancy" and "smart". At first, I tried to plot the data and use all parameters available and I found it difficult to describe the main idea of the chart. This means that readers would also have a hard time grasping the idea. To fix it, I decided to only include just enough information to answer the main question and remove any parameters that make the chart look too busy.
 
-
-<center><img src="/Users/hoale/Code/hoale2908.github.io/assets/img/boston-in-snow.jpg" width="640" height="427"></center>
-
-<center>Photo by <a href="https://unsplash.com/@mlanders87?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Matthew Landers</a> on <a href="https://unsplash.com/photos/aerial-photo-of-brown-concrete-buildings-under-cloudy-sky-v8UgmRa6UDg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> </center>
-
-
+___
 <br>
-I had a wonderful time staying warm inside and following my curiousity for new discovery. I hope you enjoy learning more about the weather in Massachusetts as much as I did.
+I had a wonderful time staying warm inside and following my curiousity to new discovery. I hope you enjoyed learning more about the weather in Massachusetts as much as I did.

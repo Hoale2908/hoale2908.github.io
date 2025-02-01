@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
+        <style>
+            /* Global minimalist styles */
+            body {
+                font-family: "Arial", sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #ffffff; /* White background */
+                color: #333; /* Dark text for readability */
+            }
+
+            /* Content Styling */
+            .content {
+                width: 85%;
+                max-width: 1000px;
+                margin: 60px auto;
+                padding: 30px;
+                background-color: #ffffff; /* White content background */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+                border: 1px solid #ddd; /* Light border */
+                border-radius: 8px;
+            }
+
+            header {
+                text-align: center;
+                padding: 20px 0;
+                background-color: #f8f9fa;
+                border-bottom: 1px solid #ddd;
+            }
+
+            header h1 {
+                margin: 0;
+                font-size: 24px;
+                color: #333;
+            }
+
+            main {
+                margin-top: 20px;
+            }
+
+            h1, h2 {
+                text-align: center;
+                color: #333;
+            }
+
+            p, ul {
+                font-size: 16px;
+                color: #555; /* Softer gray text */
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style-type: disc;
+                padding-left: 20px;
+            }
+
+            ul li {
+                margin-bottom: 10px;
+            }
+
+            /* Footer Styling */
+            footer {
+                text-align: center;
+                padding: 20px 0;
+                background-color: #f8f9fa;
+                border-top: 1px solid #ddd;
+                margin-top: 40px;
+            }
+
+            footer p {
+                margin: 0;
+                font-size: 14px;
+                color: #777;
+            }
+
+            /* Social Links */
+            .social-links {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                gap: 15px; /* Space between social icons */
+            }
+
+            .social-links a {
+                text-decoration: none;
+                color: #333;
+                font-size: 18px;
+            }
+
+            .social-links a img {
+                width: 24px;
+                height: 24px;
+                object-fit: contain;
+                transition: transform 0.2s ease;
+            }
+
+            .social-links a:hover img {
+                transform: scale(1.1); /* Slight zoom effect on hover */
+            }
+
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                .content {
+                    width: 90%;
+                }
+
+                .nav-bar a {
+                    margin: 0 10px;
+                    font-size: 16px;
+                }
+            }
+        </style>
+    </head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F45C306QSG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-F45C306QSG');
+    </script>
+
+    <body>
+        <!-- Navigation Bar -->
+        <div class="nav-bar">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
+            <a href="{{ '/posts' | relative_url }}">Blog</a>
+            <a href="{{ '/about-me' | relative_url }}">About me</a>
+        </div>
+
+        <main>
+            <!-- Single container wrapping the content -->
+            <div class="content">
+                {{ content }}
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
+                    <img src="/assets/icons/linkedin.png" alt="LinkedIn"> LinkedIn
+                </a>
+                <a href="https://www.github.com/Hoale2908" target="_blank">
+                    <img src="/assets/icons/github.png" alt="GitHub"> GitHub
+                </a>
+                <a href="https://www.kaggle.com/hoale2908" target="_blank">
+                    <img src="/assets/icons/kaggle.png" alt="Kaggle"> Kaggle
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>

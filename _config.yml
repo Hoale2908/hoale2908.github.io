@@ -9,6 +9,6 @@ plugins:
   - jekyll-tagging
 
 collections:
-  posts:
+  tags:
     output: true
 

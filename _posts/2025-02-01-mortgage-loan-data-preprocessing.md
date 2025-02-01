@@ -3,6 +3,7 @@ layout: post_layout
 title: "Mortgage Loans - Data Preprocessing"
 date: 2025-02-01
 tags: [python, data analysis, time series,]
+categories: [Featured]
 images:
   - assets/img/home-loans.jpg
 ---

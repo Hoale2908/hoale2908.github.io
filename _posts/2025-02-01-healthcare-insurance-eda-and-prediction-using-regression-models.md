@@ -3,6 +3,7 @@ layout: post_layout
 title: "Healthcare Insurance - EDA and Cost Prediction using Regression Models"
 date: 2025-02-01
 tags: [python, data analysis, regression,]
+categories: [Featured]
 images:
   - assets/img/healthcare-cost.jpg
 ---

@@ -2,7 +2,8 @@
 layout: post_layout
 title: "A Snow Day in Boston and a Python Project"
 date: 2025-01-20
-tags: [python, data analysis,]
+tags: [python, ]
+categories: [EDA for Fun]
 images:
 - assets/img/boston-in-snow.jpg
 ---

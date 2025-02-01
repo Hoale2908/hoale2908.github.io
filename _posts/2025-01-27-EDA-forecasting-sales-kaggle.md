@@ -2,7 +2,8 @@
 layout: post_layout
 title: "Forecasting Sticker Sales: EDA & Preprocessing with Time Series"
 date: 2025-01-27
-tags: [python, data analysis, kaggle, time series,]
+tags: [python, data analysis, kaggle competition, time series,]
+categories: [Featured]
 images:
   - assets/img/kaggle-forecasting-sticker-sales.png
 ---

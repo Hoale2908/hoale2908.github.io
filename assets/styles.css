@@ -190,6 +190,7 @@ main {
 
 .cta-button:hover {
   background-color: #007bff;
+  text-decoration: none;
 }
 
 /* Portfolio Grid - Two Columns */

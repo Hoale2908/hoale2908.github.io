@@ -10,66 +10,86 @@ images:
 
 Data wrangling is often the unsung hero in any data analysis project. In this project, I took a messy, raw mortgage loans dataset and transformed it into a clean, structured, and insightful resource for further analysis. Let me walk you through the steps I took and the challenges I overcame along the way.
 
+<br>
+
 ## Understanding the Raw Data
 
 The journey began with an in-depth exploration of the raw dataset. The dataset contained several issues:
 
-- Inconsistent formats: Date fields and numerical values were not standardized.
-- Missing and incomplete Data: Many records had missing entries, which could lead to biased analyses if not properly addressed.
-- Redundant information: Some columns contained duplicate or irrelevant data.
+- Inconsistent formats: Numerical and ratio values were not standardized; some percentages are in decimal (e.g. 1.5 for 1.5% instead of 0.015).
+- Missing and incomplete data: Many records had missing entries, which could lead to biased analyses if not properly addressed.
+- Redundant information: Some columns contained irrelevant data.
+- Outliers: Some loans are extremely large given small asset value, or people below 18 years old with more than 18 years of working experience.
 
 By closely examining the dataset, I was able to identify these issues early on, setting the stage for a robust data wrangling process.
 
+<br>
+
 ### Step 1: Data Cleaning
 
-**Handling Missing Values**
+**Handling Duplicates and Missing Values**
 
-One of the first tasks was to address missing values. I employed strategies such as:
+One of the first tasks was to address duplicates and missing values. 
 
-- Imputation: Where logical, I imputed missing values using statistical measures (e.g., mean or median) from the surrounding data.
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/missing%20values.png" class="post-image">
+
+<br>
+
+
+
+I employed strategies such as:
+
+- Imputation: Where logical, I imputed missing values using statistical measures (e.g., mean or median) from the surrounding data.  
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/fill%20missing%20values.png" class="post-image">
+
+<br>
 - Removal: In cases where imputation was not feasible or would compromise data integrity, I removed the problematic records.
 
-**Removing Duplicates**
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/clean%20loan%20amount.png" class="post-image">
 
-Duplicate entries can skew any analysis. I carefully checked for duplicates and removed them to ensure the dataset was as accurate as possible.
+<br>
 
-**Standardizing Data Formats**
+- Exclusion: Below is an example where some categorical features are removed if more than 97% of data are in one group, adding none to little meaning to the prediction model.
 
-Data coming from different sources often have varying formats. I:
-- Unified date formats to a standard format.
-- Converted numerical fields to appropriate data types, ensuring consistency across the board.
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/remove%20redundant%20columns.png" class="post-image">
 
-These cleaning steps ensured that every record in the dataset was usable and reliable.
+**Visualizing the Transformation**
+
+Visualizations played a key role in understanding the impact of the data wrangling process. Here are two charts generated directly from the notebook that highlight the transformation:
+
+*<center>Before Data Wrangling</center>*
+
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/pv%20before.png" class="post-image">
+
+<br>
+
+*<center>After Data Wrangling</center>*
+
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/pv%20after.png" class="post-image">
+
+<br>
+
+In the “before” chart, you can see the raw state of the dataset. Notice the blue dashed line emphasizing the outliers in Property value. These visual comparisons clearly showcase the improvement in data quality, making it a perfect foundation for deeper analysis.
+
+<br>
 
 ### Step 2: Data Transformation
 
 Once the dataset was clean, I focused on transforming the data into a format that could be easily analyzed.
 
-**Standardization of Variables**
+**Re-calculate Features**
 
-Inconsistent categorical variables were encoded uniformly. This step was crucial for any downstream analysis, ensuring that each category was correctly interpreted by the analytical models.
+Some of the features were products of others and therefore need to be updated accordingly after adjustments in the original features. For example:
+- Loan-to-Value Ratio: Once Loan amount and Property value are cleaned, the ratio LTV should also be updated. 
+- Debt-to-Income Ratio: This ratio is based on the loan amount and income, so it must be updated as well. Furthermore, the initial number formatting was inconsistent (i.e. 1.5 and 0.015 for 1.5%); recalculation helps avoid this problem. 
 
-**Creating New Features**
+**Standardization and One-Hot Encoding**
 
-To enhance the dataset, I engineered new features that could provide additional insights. For example:
-- Loan-to-Value Ratio: I derived this metric to assess the risk associated with each mortgage loan. This new feature provided a more nuanced view of each loan’s characteristics.
+To prepare for modeling, I transformed features with high skewness and encoded categorical features. This step will help reduce model bias.
 
-### Step 3: Visualizing the Transformation
+<img src="https://raw.githubusercontent.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/refs/heads/main/feature%20engineering.png" class="post-image">
 
-Visualizations played a key role in understanding the impact of the data wrangling process. Here are two charts generated directly from the notebook that highlight the transformation:
-
-### Before Data Wrangling
-
-In the “before” chart, you can see the raw state of the dataset. Notice the inconsistencies, missing values, and scattered data points that make it difficult to draw any reliable conclusions.
-
-### After Data Wrangling
-
-After applying the cleaning and transformation steps, the dataset looks much more organized. The “after” chart demonstrates:
-- Consistent data formatting,
-- Cleaned and imputed values,
-- Enhanced features ready for analysis.
-
-These visual comparisons clearly showcase the improvement in data quality, making it a perfect foundation for deeper analysis.
+<br>
 
 ## Conclusion
 
@@ -78,4 +98,3 @@ This project demonstrates that effective data wrangling is more than just a prel
 Feel free to explore the notebook and see the detailed code and transformations in action. Happy data wrangling!
 
 To view the notebook, [click here](https://github.com/Hoale2908/Mortgage_Loans_Data_Preprocessing/blob/main/code.ipynb).
-

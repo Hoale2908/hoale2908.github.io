@@ -5,9 +5,9 @@ date: 2025-01-27
 tags: [python, data preprocessing, kaggle competition, time series,]
 categories: [Reflection]
 images:
-  - assets/img/back-bay.jpg
+  - assets/img/boston-public-library.jpg
 ---
-*Boston, Back Bay. Jan 12, 2025*
+*Boston Public Library, Christmas 2024.*
 
 Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into *train* and *test* sets with 230,130 and 98,550 entries, respectively, featuring sales of the 5 different Kaggle stickers at three store chains over 6 countries.
 
@@ -17,7 +17,7 @@ In this blog, I reflected on working with time series data and particularly on h
 
 This is the first time I process a dataset with time series. I started with learning about the necessary libraries and methods, common approaches for data cleaning and data transformation. [Introduction to Time Series Forecasting with Python](https://www.google.com/books/edition/Introduction_to_Time_Series_Forecasting/-AiqDwAAQBAJ?hl=en) by Jason Brownleee was extremely helpful in providing these foundations. 
 
-- **datetime** is such a powerful library to convert string to date and/or time; create new data by decomposing/composing date into quarter, month, week, week of year, day of week, etc; compute moving average; and so on.
+- *datetime* is such a powerful library to convert string to date and/or time; create new data by decomposing/composing date into quarter, month, week, week of year, day of week, etc; compute moving average; and so on.
 - There is usually trends or seasonality in time series, so we can't simply drop missing values or impute them with mean or median.
 - Imputation of time series data needs to take into account the direction in which existing data is used.
 
@@ -34,6 +34,7 @@ Fortunately, another Kaggler finally found another dataset with GDP with which t
 Throughout my project, I realized that I would have to perform some tasks at least twice: once for the train set, and once for the test set. Each of these tasks may contain multiple lengthy lines of code. Therefore, I createed functions for these repetitive tasks. 
 
 ___
+
 This competition was concluded on Jan 31, 2025. I stood at 2025/2723 on the public leaderboard with 0.33670 RSME. Though it was not a fantastic result, it marked the second competition that I actively participated on Kaggle and helped me focus on learning how to work with time series. 
 
 Cheers to courage and new knowledge! 🍻

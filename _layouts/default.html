@@ -151,36 +151,41 @@
     </script>
 
     <body>
-        <!-- Navigation Bar -->
-        <div class="nav-bar">
-            <a href="{{ '/' | relative_url }}">Home</a>
-            <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
-            <a href="{{ '/posts' | relative_url }}">Blog</a>
-            <a href="{{ '/about-me' | relative_url }}">About me</a>
+        <div class="wrapper">
+
+            <!-- Navigation Bar -->
+            <div class="nav-bar">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="{{ '/portfolio' | relative_url }}">Portfolio</a>
+                <a href="{{ '/posts' | relative_url }}">Blog</a>
+                <a href="{{ '/about-me' | relative_url }}">About me</a>
+            </div>
+
+            <main>
+                <!-- Single container wrapping the content -->
+                <div class="content">
+                    {{ content }}
+                </div>
+            </main>
+
+            <footer>
+                <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+
+                <!-- Social Media Links -->
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
+                        <img src="/assets/icons/linkedin.png" alt="LinkedIn"> LinkedIn
+                    </a>
+                    <a href="https://www.github.com/Hoale2908" target="_blank">
+                        <img src="/assets/icons/github.png" alt="GitHub"> GitHub
+                    </a>
+                    <a href="https://www.kaggle.com/hoale2908" target="_blank">
+                        <img src="/assets/icons/kaggle.png" alt="Kaggle"> Kaggle
+                    </a>
+                </div>
+            </footer>
+            
         </div>
-
-        <main>
-            <!-- Single container wrapping the content -->
-            <div class="content">
-                {{ content }}
-            </div>
-        </main>
-
-        <footer>
-            <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-
-            <!-- Social Media Links -->
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/lehoa2908" target="_blank">
-                    <img src="/assets/icons/linkedin.png" alt="LinkedIn"> LinkedIn
-                </a>
-                <a href="https://www.github.com/Hoale2908" target="_blank">
-                    <img src="/assets/icons/github.png" alt="GitHub"> GitHub
-                </a>
-                <a href="https://www.kaggle.com/hoale2908" target="_blank">
-                    <img src="/assets/icons/kaggle.png" alt="Kaggle"> Kaggle
-                </a>
-            </div>
-        </footer>
+        
     </body>
 </html>

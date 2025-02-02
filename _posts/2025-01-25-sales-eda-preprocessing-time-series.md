@@ -64,7 +64,7 @@ Good features make all the difference in predictive modeling. I focused on:
 
 ## Wrapping Up
 
-By crafting meaningful features, I improved the model's MSRE (Mean Square Residual Error) and got a higher rank in the competition.
+By crafting meaningful features, I improved the model's MAPE (Mean Absolute Percentage Error) and got a higher rank in the competition.
 
 This project is a testament to my ability to analyze data deeply and prepare it for real-world predictive modeling. By combining detailed EDA, smart data cleaning, and strategic feature engineering, I built a solid foundation for sales forecasting.
 

@@ -9,7 +9,7 @@ images:
 ---
 *Boston Public Library, Christmas 2024.*
 
-Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into *train* and *test* sets with 230,130 and 98,550 entries, respectively, featuring sales of the 5 different Kaggle stickers at three store chains over 6 countries.
+Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into *train* and *test* sets with 230,130 and 98,550 entries, respectively, featuring sales of the 5 different Kaggle stickers at three store chains over 6 countries from 2010 to 2019.
 
 In this blog, I reflected on working with time series data and particularly on how to use data visualization and preprocessing techniques to prepare data for modeling.
 
@@ -35,6 +35,6 @@ Throughout my project, I realized that I would have to perform some tasks at lea
 
 ___
 
-This competition was concluded on Jan 31, 2025. I stood at 2025/2723 on the public leaderboard with 0.33670 RSME. Though it was not a fantastic result, it marked the second competition that I actively participated on Kaggle and helped me focus on learning how to work with time series. 
+This competition was concluded on Jan 31, 2025. I stood at 2025/2723 on the public leaderboard with 0.33670 MAPE. Although it was not a fantastic result, it marked the second competition that I actively participated on Kaggle and helped me learn how to work with time series. 
 
 Cheers to courage and new knowledge! 🍻

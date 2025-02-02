@@ -5,7 +5,7 @@ date: 2025-01-25
 tags: [python, data preprocessing, kaggle competition, time series,]
 categories: [Featured]
 images:
-  - assets/img/kaggle-forecasting-sticker-sales.png
+  - assets/img/sales-trends.jpg
 ---
 
 

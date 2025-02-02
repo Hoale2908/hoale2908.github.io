@@ -13,9 +13,10 @@ Data wrangling is often the unsung hero in any data analysis project. In this pr
 ## Understanding the Raw Data
 
 The journey began with an in-depth exploration of the raw dataset. The dataset contained several issues:
-	•	Inconsistent formats: Date fields and numerical values were not standardized.
-	•	Missing and incomplete Data: Many records had missing entries, which could lead to biased analyses if not properly addressed.
-	•	Redundant information: Some columns contained duplicate or irrelevant data.
+
+- Inconsistent formats: Date fields and numerical values were not standardized.
+- Missing and incomplete Data: Many records had missing entries, which could lead to biased analyses if not properly addressed.
+- Redundant information: Some columns contained duplicate or irrelevant data.
 
 By closely examining the dataset, I was able to identify these issues early on, setting the stage for a robust data wrangling process.
 
@@ -24,8 +25,9 @@ By closely examining the dataset, I was able to identify these issues early on, 
 **Handling Missing Values**
 
 One of the first tasks was to address missing values. I employed strategies such as:
-	•	Imputation: Where logical, I imputed missing values using statistical measures (e.g., mean or median) from the surrounding data.
-	•	Removal: In cases where imputation was not feasible or would compromise data integrity, I removed the problematic records.
+
+- Imputation: Where logical, I imputed missing values using statistical measures (e.g., mean or median) from the surrounding data.
+- Removal: In cases where imputation was not feasible or would compromise data integrity, I removed the problematic records.
 
 **Removing Duplicates**
 
@@ -34,8 +36,8 @@ Duplicate entries can skew any analysis. I carefully checked for duplicates and 
 **Standardizing Data Formats**
 
 Data coming from different sources often have varying formats. I:
-	•	Unified date formats to a standard format.
-	•	Converted numerical fields to appropriate data types, ensuring consistency across the board.
+- Unified date formats to a standard format.
+- Converted numerical fields to appropriate data types, ensuring consistency across the board.
 
 These cleaning steps ensured that every record in the dataset was usable and reliable.
 
@@ -50,7 +52,7 @@ Inconsistent categorical variables were encoded uniformly. This step was crucial
 **Creating New Features**
 
 To enhance the dataset, I engineered new features that could provide additional insights. For example:
-	•	Loan-to-Value Ratio: I derived this metric to assess the risk associated with each mortgage loan. This new feature provided a more nuanced view of each loan’s characteristics.
+- Loan-to-Value Ratio: I derived this metric to assess the risk associated with each mortgage loan. This new feature provided a more nuanced view of each loan’s characteristics.
 
 ### Step 3: Visualizing the Transformation
 
@@ -63,9 +65,9 @@ In the “before” chart, you can see the raw state of the dataset. Notice the 
 ### After Data Wrangling
 
 After applying the cleaning and transformation steps, the dataset looks much more organized. The “after” chart demonstrates:
-	•	Consistent data formatting,
-	•	Cleaned and imputed values,
-	•	Enhanced features ready for analysis.
+- Consistent data formatting,
+- Cleaned and imputed values,
+- Enhanced features ready for analysis.
 
 These visual comparisons clearly showcase the improvement in data quality, making it a perfect foundation for deeper analysis.
 

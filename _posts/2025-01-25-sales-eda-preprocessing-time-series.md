@@ -38,7 +38,7 @@ EDA is the secret sauce behind any solid data project. Here’s how I approached
 
 These insights helped shape the data preprocessing steps, ensuring models were trained on high-quality inputs.
 
-<img src="https://raw.githubusercontent.com/Hoale2908/kaggle_forecasting_sticker_sales/refs/heads/main/sales_trend.png" class="post-img">
+<img src="https://raw.githubusercontent.com/Hoale2908/kaggle_forecasting_sticker_sales/refs/heads/main/sales_trend.png" class="post-image">
 
 <br>
 
@@ -50,7 +50,7 @@ Real-world data is never perfect, so I made sure to:
 
 By refining the dataset, I ensured the forecasting models had a clean, reliable foundation to work with.
 
-<img src="https://raw.githubusercontent.com/Hoale2908/kaggle_forecasting_sticker_sales/refs/heads/main/interpolation.png" class="post-img">
+<img src="https://raw.githubusercontent.com/Hoale2908/kaggle_forecasting_sticker_sales/refs/heads/main/interpolation.png" class="post-image">
 
 <br>
 

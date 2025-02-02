@@ -60,11 +60,12 @@ Good features make all the difference in predictive modeling. I focused on:
 - **Lag Variables**: Created past sales indicators to help models recognize dependencies.
 - **Rolling Statistics**: Used moving averages to capture recent sales trends.
 
-By crafting meaningful features, I gave forecasting models the best shot at success.
-
 <br>
 
 ## Wrapping Up
+
+By crafting meaningful features, I improved the model's MSRE (Mean Square Residual Error) and got a higher rank in the competition.
+
 This project is a testament to my ability to analyze data deeply and prepare it for real-world predictive modeling. By combining detailed EDA, smart data cleaning, and strategic feature engineering, I built a solid foundation for sales forecasting.
 
 Check out the full analysis in my Kaggle notebook [here](https://www.kaggle.com/code/hoale2908/forecasting-sticker-sales-eda-preprocessing) or read my blog about the forecasting models [here](https://hoale2908.github.io/featured/2025/02/01/forecasting-sales-modeling-with-time-series.html). I’m always looking to collaborate on exciting data projects, so let’s connect!

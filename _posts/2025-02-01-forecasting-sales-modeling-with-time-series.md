@@ -1,6 +1,6 @@
 ---
 layout: post_layout
-title: "Forecasting Sales - Modeling with Time Series"
+title: "Forecasting Sticker Sales (Part 2) - Modeling with Time Series"
 date: 2025-02-01
 tags: [python, kaggle competition, time series,]
 categories: [Featured]

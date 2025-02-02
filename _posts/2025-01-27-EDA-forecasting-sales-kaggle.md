@@ -1,11 +1,11 @@
 ---
 layout: post_layout
-title: "Forecasting Sticker Sales: EDA & Preprocessing with Time Series"
+title: "Forecasting Sticker Sales - EDA & Preprocessing with Time Series"
 date: 2025-01-27
 tags: [python, data preprocessing, kaggle competition, time series,]
 categories: [Reflection]
 images:
-  - assets/img/kaggle-forecasting-sticker-sales.png
+  - assets/img/sales-trends.jpg
 ---
 
 Forecast Sticker Sales is a playground competition hosted by Kaggle. The dataset was divided into *train* and *test* sets with 230,130 and 98,550 entries, respectively, featuring sales of the 5 different Kaggle stickers at three store chains over 6 countries.

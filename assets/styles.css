@@ -16,6 +16,10 @@ body {
   color: #eaeaea; /* Light text color for readability */
 }
 
+.content {
+  flex: 1; /* Pushes footer to the bottom */
+}
+
 /* Container for page content */
 .container {
   width: 90%;
@@ -66,6 +70,7 @@ footer {
   width: 100%;
   background-color: #f1f1f1;
   padding: 20px 0;
+  border-top: 1px solid #ddd;
 }
 
 footer a:hover {

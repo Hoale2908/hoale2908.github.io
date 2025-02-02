@@ -127,12 +127,14 @@
 
     <body>
         <div class="wrapper">
+            <header>
+                <h1>{{ page.title }}</h1>
+            </header>
 
-            <main>
+            <main class="content">
                 <!-- Single container wrapping the content -->
-                <div class="content">
-                    {{ content }}
-                </div>
+                {{ content }}
+                
             </main>
     
             <footer>

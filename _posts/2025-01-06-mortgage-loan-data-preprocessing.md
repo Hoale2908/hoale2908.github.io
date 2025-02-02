@@ -5,7 +5,7 @@ date: 2025-01-06
 tags: [python, data analysis, time series,]
 categories: [Featured]
 images:
-  - assets/img/home-loans.jpg
+  - assets/img/mortgage-loans.jpg
 ---
 
 Data wrangling is often the unsung hero in any data analysis project. In this project, I took a messy, raw mortgage loans dataset and transformed it into a clean, structured, and insightful resource for further analysis. Let me walk you through the steps I took and the challenges I overcame along the way.

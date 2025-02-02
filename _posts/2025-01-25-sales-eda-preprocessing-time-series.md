@@ -8,8 +8,6 @@ images:
   - assets/img/kaggle-forecasting-sticker-sales.png
 ---
 
-# Forecasting Sticker Sales - EDA & Preprocessing with Time Series
-
 ## Introduction
 
 Accurate sales forecasting is crucial for businesses to optimize inventory, reduce waste, and maximize profitability. My recent Kaggle notebook, [Forecasting Sticker Sales: EDA & Preprocessing](https://www.kaggle.com/code/hoale2908/forecasting-sticker-sales-eda-preprocessing), demonstrates my expertise in exploratory data analysis (EDA) and data preprocessing—critical steps in building reliable predictive models. This blog highlights key aspects of my approach, showcasing my ability to analyze trends, handle missing data, and prepare datasets for forecasting.
